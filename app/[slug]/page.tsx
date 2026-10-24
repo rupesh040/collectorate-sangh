@@ -10,6 +10,8 @@ import Events from "@/components/Events";
 import EmployeeInformation from "@/components/EmployeeInformation";
 import Contact from "@/components/Contact";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return Object.keys(pages)
     .filter((slug) => slug !== "index")
