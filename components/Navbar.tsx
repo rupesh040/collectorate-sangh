@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { siteContent } from "@/data";
 import Icon from "./Icon";
+import { styles } from "./UI";
 
 export default function Navbar() {
   const { header, ui } = siteContent;
@@ -12,28 +13,40 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="scope-navbar contents">
-      <a className="skip-link" href="#main">
+    <>
+      <a
+        className="absolute -top-[60px] left-[12px] z-[100] rounded-[6px] bg-gold px-[14px] py-[8px] font-semibold text-navy-950 no-underline focus:top-[12px]"
+        href="#main"
+      >
         {ui.skipLink}
       </a>
-      <header className="site-header">
-        <div className="slogans">
-          <div className="wrap slogans__row">
-            {header.slogans.map((slogan) => (
-              <span key={slogan}>{slogan}</span>
+      <header>
+        <div className="bg-navy-950 text-[.8rem] font-medium text-gold-soft">
+          <div
+            className={`${styles.wrap} flex justify-between gap-[1rem] py-[5px] [@media(width<=860px)]:justify-center`}
+          >
+            {header.slogans.map((slogan, index) => (
+              <span
+                className={`${index === 1 ? "text-white" : ""} ${index < header.slogans.length - 1 ? "[@media(width<=860px)]:hidden" : ""}`}
+                key={slogan}
+              >
+                {slogan}
+              </span>
             ))}
           </div>
         </div>
-        <div className="brand-band">
-          <div className="wrap brand">
+        <div className="[background:linear-gradient(90deg,#d99a0b00_0%,#d99a0b8c_50%,#d99a0b00_100%)_bottom/100%_1px_no-repeat,radial-gradient(1200px_200px_at_50%_-40%,#eaf1fb_0%,#0000_70%),#fff]">
+          <div
+            className={`${styles.wrap} flex items-center justify-between gap-[1.5rem] py-[14px]`}
+          >
             <Link
-              className="brand__home"
+              className="flex min-w-0 items-center gap-[clamp(12px,2vw,20px)] text-inherit no-underline"
               href="/"
               aria-label={header.homeLabel}
               onClick={() => setIsOpen(false)}
             >
               <img
-                className="brand__logo"
+                className="h-auto w-[clamp(64px,9vw,96px)] max-w-full flex-none rounded-[50%]"
                 src={header.logo.src}
                 alt={header.logo.alt}
                 width={96}
@@ -41,56 +54,76 @@ export default function Navbar() {
                 loading="eager"
                 decoding="async"
               />
-              <span className="brand__text">
-                <span className="brand__name">{header.brandName}</span>
-                <span className="brand__recog">{header.recognition}</span>
-                <span className="brand__hq">{header.headquarters}</span>
+              <span className="flex min-w-0 flex-col">
+                <span className="font-serif text-[clamp(1.15rem,2.6vw,1.9rem)] leading-[1.3] font-extrabold text-navy-900">
+                  {header.brandName}
+                </span>
+                <span className="text-[clamp(.72rem,1.2vw,.88rem)] font-medium text-ink">
+                  {header.recognition}
+                </span>
+                <span className="text-[clamp(.78rem,1.3vw,.95rem)] font-bold text-red">
+                  {header.headquarters}
+                </span>
               </span>
             </Link>
-            <p className="brand__motto" lang="hi">
+            <p
+              className="m-0 flex flex-col items-end border-b-[3px] border-gold pb-[6px] font-serif leading-[1.4] font-bold whitespace-nowrap text-navy italic [@media(width<=1080px)]:hidden"
+              lang="hi"
+            >
               {header.motto.map((line) => (
                 <span key={line}>{line}</span>
               ))}
             </p>
           </div>
         </div>
-        <nav className="mainnav" aria-label={ui.navigation}>
-          <div className="wrap mainnav__inner">
+        <nav
+          className="sticky top-0 z-50 border-b-[3px] border-gold bg-navy"
+          aria-label={ui.navigation}
+        >
+          <div className={`${styles.wrap} [@media(width<=860px)]:py-[6px]`}>
             <button
-              className="mainnav__toggle"
+              className="hidden cursor-pointer items-center gap-[8px] rounded-[8px] border-[1.5px] border-[#fff6] bg-transparent px-[12px] py-[6px] font-semibold text-white [@media(width<=860px)]:inline-flex"
               type="button"
               aria-expanded={isOpen}
               aria-controls="nav-list"
               onClick={() => setIsOpen((open) => !open)}
             >
-              <Icon name="menu" className="i-open" />
-              <Icon name="close" className="i-close" />
+              <Icon name={isOpen ? "close" : "menu"} className="size-[22px]" />
               <span>{header.menuLabel}</span>
             </button>
-            <ul className="mainnav__list" id="nav-list">
-              {header.nav.map((item) => (
-                <li key={item.href}>
-                  <Link
-                    href={item.href}
-                    aria-current={
-                      (pathname.replace(/\/$/, "") || "/") ===
-                      (item.href.replace(/\/$/, "") || "/")
-                        ? "page"
-                        : undefined
-                    }
-                    onClick={() => setIsOpen(false)}
-                  >
-                    <span className="hi">{item.label}</span>
-                    <span className="en" lang="en">
-                      {item.en}
-                    </span>
-                  </Link>
-                </li>
-              ))}
+            <ul
+              className={`m-0 flex flex-wrap list-none p-0 [@media(width<=860px)]:flex-col [@media(width<=860px)]:py-[6px] ${isOpen ? "[@media(width<=860px)]:flex" : "[@media(width<=860px)]:hidden"}`}
+              id="nav-list"
+            >
+              {header.nav.map((item) => {
+                const active =
+                  (pathname.replace(/\/$/, "") || "/") ===
+                  (item.href.replace(/\/$/, "") || "/");
+                return (
+                  <li key={item.href}>
+                    <Link
+                      className={`relative flex flex-col items-center px-[14px] pt-[9px] pb-[7px] leading-[1.3] text-white no-underline transition-[background-color] duration-200 [transition-timing-function:ease] hover:bg-[#ffffff14] after:absolute after:right-[14px] after:bottom-0 after:left-[14px] after:h-[3px] after:bg-gold after:content-[''] after:transition-transform after:duration-[250ms] after:[transform:scaleX(0)] hover:after:[transform:scaleX(1)] [@media(width<=1080px)]:px-[10px] [@media(width<=860px)]:flex-row [@media(width<=860px)]:items-baseline [@media(width<=860px)]:justify-between [@media(width<=860px)]:border-t [@media(width<=860px)]:border-[#ffffff1a] [@media(width<=860px)]:px-[6px] [@media(width<=860px)]:py-[10px] [@media(width<=860px)]:after:h-auto [@media(width<=860px)]:after:w-[3px] [@media(width<=860px)]:after:[inset:8px_auto_8px_0] [@media(width<=860px)]:after:[transform:scaleY(0)] ${active ? "bg-navy-900! after:[transform:scaleX(1)]! [@media(width<=860px)]:after:[transform:scaleY(1)]!" : ""}`}
+                      href={item.href}
+                      aria-current={active ? "page" : undefined}
+                      onClick={() => setIsOpen(false)}
+                    >
+                      <span className="text-[.98rem] font-semibold">
+                        {item.label}
+                      </span>
+                      <span
+                        className="text-[.7rem] tracking-[.02em] text-[#ffffffad]"
+                        lang="en"
+                      >
+                        {item.en}
+                      </span>
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </nav>
       </header>
-    </div>
+    </>
   );
 }

@@ -27,7 +27,7 @@ app/
   layout.tsx              Shared layout and metadata
   page.tsx                Homepage composition
   [slug]/page.tsx          Six statically generated inner pages
-  globals.css             Tailwind, local fonts, component styles, animations
+  globals.css             Tailwind theme, local fonts, animation keyframes
 components/
   Navbar.tsx              Responsive navigation
   Hero.tsx
@@ -47,6 +47,7 @@ components/
   PageHeader.tsx
   SectionHeading.tsx
   Icon.tsx
+  UI.tsx                  Shared Tailwind utility strings
 data/
   content.json            All website text, links, images, lists, and tables
   type.ts                 All content and component prop types
@@ -60,6 +61,8 @@ tsconfig.json             TypeScript settings
 ## Editing content
 
 Update `data/content.json`. Components import its typed exports from `data/index.ts`; all content types are defined in `data/type.ts`. Extend these three files together when adding data fields.
+
+All layout, typography, responsive rules, hover states, and pseudo-elements use Tailwind utility classes in the TSX components. `components/UI.tsx` shares repeated utility strings for containers, buttons, cards, headings, tables, and reveal animations. `app/globals.css` contains only the Tailwind import, theme tokens, local font declarations, and two animation keyframes; it has no global layout or component selectors.
 
 Routes: `/`, `/about/`, `/office-bearers/`, `/events/`, `/samvidhan/`, `/employee-information/`, and `/contact/`.
 

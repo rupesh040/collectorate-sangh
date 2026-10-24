@@ -4,36 +4,42 @@ import DocumentCard from "./DocumentCard";
 import EditionGrid from "./EditionGrid";
 import KeyPoints from "./KeyPoints";
 import SectionHeading from "./SectionHeading";
+import { styles } from "./UI";
 
 export default function Constitution({ full = false }: ConstitutionProps) {
   const { constitution } = siteContent;
 
   if (!full) {
     return (
-      <div className="scope-home contents">
-        <section className="section section--alt" aria-labelledby="sv-title">
-          <div className="wrap">
-            <SectionHeading heading={constitution.heading} id="sv-title" />
-            <div className="docs">
-              {constitution.documents.map((document) => (
-                <DocumentCard document={document} key={document.title} />
-              ))}
-            </div>
-            <div className="keypoints">
-              <h3 className="keypoints__title">
-                {constitution.homeEditionsTitle}
-              </h3>
-              <EditionGrid />
-            </div>
-            <div className="keypoints">
-              <h3 className="keypoints__title">
-                {constitution.homeKeyPointsTitle}
-              </h3>
-              <KeyPoints />
-            </div>
+      <section
+        className={`${styles.section} ${styles.sectionAlt}`}
+        aria-labelledby="sv-title"
+      >
+        <div className={styles.wrap}>
+          <SectionHeading heading={constitution.heading} id="sv-title" />
+          <div className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,460px),1fr))] gap-[22px]">
+            {constitution.documents.map((document) => (
+              <DocumentCard document={document} key={document.title} />
+            ))}
           </div>
-        </section>
-      </div>
+          <div className="mt-[clamp(40px,6vw,64px)] border-t border-line pt-[clamp(32px,5vw,48px)]">
+            <h3
+              className={`${styles.heading} mb-[1em] text-[clamp(1.35rem,2.6vw,1.75rem)]`}
+            >
+              {constitution.homeEditionsTitle}
+            </h3>
+            <EditionGrid />
+          </div>
+          <div className="mt-[clamp(40px,6vw,64px)] border-t border-line pt-[clamp(32px,5vw,48px)]">
+            <h3
+              className={`${styles.heading} mb-[1em] text-[clamp(1.35rem,2.6vw,1.75rem)]`}
+            >
+              {constitution.homeKeyPointsTitle}
+            </h3>
+            <KeyPoints />
+          </div>
+        </div>
+      </section>
     );
   }
 
@@ -43,19 +49,22 @@ export default function Constitution({ full = false }: ConstitutionProps) {
     );
 
   return (
-    <div className="scope-constitution contents">
-      <section className="section">
-        <div className="wrap">
+    <>
+      <section className={styles.section}>
+        <div className={styles.wrap}>
           <SectionHeading heading={constitution.documentsHeading} />
-          <div className="docs">
+          <div className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,460px),1fr))] gap-[22px]">
             {constitution.documents.map((document) => (
               <DocumentCard document={document} key={document.title} />
             ))}
           </div>
         </div>
       </section>
-      <section className="section section--alt" aria-labelledby="ed-title">
-        <div className="wrap">
+      <section
+        className={`${styles.section} ${styles.sectionAlt}`}
+        aria-labelledby="ed-title"
+      >
+        <div className={styles.wrap}>
           <SectionHeading
             heading={constitution.editionsHeading}
             id="ed-title"
@@ -63,8 +72,8 @@ export default function Constitution({ full = false }: ConstitutionProps) {
           <EditionGrid />
         </div>
       </section>
-      <section className="section" aria-labelledby="kp-title">
-        <div className="wrap">
+      <section className={styles.section} aria-labelledby="kp-title">
+        <div className={styles.wrap}>
           <SectionHeading
             heading={constitution.keyPointsHeading}
             id="kp-title"
@@ -72,20 +81,28 @@ export default function Constitution({ full = false }: ConstitutionProps) {
           <KeyPoints />
         </div>
       </section>
-      <section className="section section--alt">
-        <div className="wrap two">
+      <section className={`${styles.section} ${styles.sectionAlt}`}>
+        <div
+          className={`${styles.wrap} grid grid-cols-[1.3fr_1fr] items-start gap-[clamp(28px,5vw,56px)] [@media(width<=900px)]:grid-cols-1`}
+        >
           <div>
             <SectionHeading heading={constitution.editionSection.heading} />
-            <p>
+            <p className={styles.paragraph}>
               {beforeEmphasis}
-              <strong>{constitution.editionSection.emphasis}</strong>
+              <strong className="font-bold">
+                {constitution.editionSection.emphasis}
+              </strong>
               {afterEmphasis}
             </p>
           </div>
           <div>
-            <h3 className="tbl-title">{constitution.committee.title}</h3>
-            <div className="table-scroll">
-              <table>
+            <h3
+              className={`${styles.heading} mt-[.4em] mb-[.5em] text-[1.25rem]`}
+            >
+              {constitution.committee.title}
+            </h3>
+            <div className={styles.tableWrap}>
+              <table className={styles.table}>
                 <thead>
                   <tr>
                     {constitution.committee.headers.map((header) => (
@@ -99,7 +116,7 @@ export default function Constitution({ full = false }: ConstitutionProps) {
                   {constitution.committee.members.map((member) => (
                     <tr key={member.name}>
                       <td>
-                        <strong>{member.name}</strong>
+                        <strong className="font-bold">{member.name}</strong>
                       </td>
                       <td>{member.role}</td>
                     </tr>
@@ -107,10 +124,12 @@ export default function Constitution({ full = false }: ConstitutionProps) {
                 </tbody>
               </table>
             </div>
-            <p className="source-note">{constitution.committee.source}</p>
+            <p className={`${styles.sourceNote} mb-[1em]`}>
+              {constitution.committee.source}
+            </p>
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }

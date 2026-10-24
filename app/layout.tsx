@@ -15,8 +15,11 @@ export const viewport: Viewport = { themeColor: content.themeColor };
 
 export default function RootLayout({ children }: Readonly<RootLayoutProps>) {
   return (
-    <html lang={content.language}>
-      <body>
+    <html
+      lang={content.language}
+      className="scroll-smooth motion-reduce:scroll-auto"
+    >
+      <body className="m-0 bg-paper font-sans text-[1.0625rem] leading-[1.75] text-ink [text-rendering:optimizeLegibility] [&_:where(:focus-visible)]:rounded [&_:where(:focus-visible)]:[outline:3px_solid_var(--color-gold)] [&_:where(:focus-visible)]:outline-offset-2 motion-reduce:**:animate-none! motion-reduce:**:transition-none! motion-reduce:**:scroll-auto! motion-reduce:[&_*::before]:transition-none! motion-reduce:[&_*::after]:transition-none!">
         <Navbar />
         <main id="main">{children}</main>
         <Footer />

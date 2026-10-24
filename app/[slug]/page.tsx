@@ -26,9 +26,7 @@ export async function generateMetadata({
   return { title: page ? `${page.title} | ${metadata.title}` : metadata.title };
 }
 
-export default async function ContentPage({
-  params,
-}: RoutePageProps) {
+export default async function ContentPage({ params }: RoutePageProps) {
   const { slug } = await params;
   const page = pages[slug];
   if (!page) notFound();
