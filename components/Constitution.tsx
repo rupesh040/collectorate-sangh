@@ -1,4 +1,6 @@
-import { siteContent } from "@/data";
+"use client";
+
+import { useContent } from "./LanguageProvider";
 import type { ConstitutionProps } from "@/data/type";
 import DocumentCard from "./DocumentCard";
 import EditionGrid from "./EditionGrid";
@@ -7,7 +9,7 @@ import SectionHeading from "./SectionHeading";
 import { styles } from "./UI";
 
 export default function Constitution({ full = false }: ConstitutionProps) {
-  const { constitution } = siteContent;
+  const { constitution } = useContent();
 
   if (!full) {
     return (

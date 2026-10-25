@@ -18,7 +18,7 @@ npm run typecheck
 npm run build
 ```
 
-`npm run build` generates all seven pages in `out/`. Upload that folder to any static web host. Next.js generates `next-env.d.ts` automatically; keep this TypeScript support file.
+`npm run build` generates all seven pages in `dist/`. Upload that generated folder to a static web host. The source ZIP excludes generated build folders. Development uses `.next/`; the project does not create an `out/` folder.
 
 ## Structure
 
@@ -26,10 +26,16 @@ npm run build
 app/
   layout.tsx              Shared layout and metadata
   page.tsx                Homepage composition
-  [slug]/page.tsx          Six statically generated inner pages
+  about/page.tsx
+  office-bearers/page.tsx
+  events/page.tsx
+  samvidhan/page.tsx
+  employee-information/page.tsx
+  contact/page.tsx
   globals.css             Tailwind theme, local fonts, animation keyframes
 components/
   Navbar.tsx              Responsive navigation
+  LanguageProvider.tsx    Hindi/English selection and persistence
   Hero.tsx
   Facts.tsx
   About.tsx
@@ -49,7 +55,7 @@ components/
   Icon.tsx
   UI.tsx                  Shared Tailwind utility strings
 data/
-  content.json            All website text, links, images, lists, and tables
+  content.json            Complete hi and en website data
   type.ts                 All content and component prop types
   index.ts                Typed JSON data exports
 public/assets/            Original images, icons, and local font files
@@ -61,6 +67,8 @@ tsconfig.json             TypeScript settings
 ## Editing content
 
 Update `data/content.json`. Components import its typed exports from `data/index.ts`; all content types are defined in `data/type.ts`. Extend these three files together when adding data fields.
+
+`content.json` contains matching `hi` and `en` objects for all pages, links, lists, tables, and accessibility labels. The navbar language buttons switch the whole website, preserve the current page, and save the preference in local storage. Components read the selected content through `useContent()`.
 
 All layout, typography, responsive rules, hover states, and pseudo-elements use Tailwind utility classes in the TSX components. `components/UI.tsx` shares repeated utility strings for containers, buttons, cards, headings, tables, and reveal animations. `app/globals.css` contains only the Tailwind import, theme tokens, local font declarations, and two animation keyframes; it has no global layout or component selectors.
 

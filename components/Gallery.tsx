@@ -1,16 +1,18 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { ui } from "@/data";
-import type { GalleryImage, GalleryProps } from "@/data/type";
+import { useContent } from "./LanguageProvider";
+import type { GalleryProps } from "@/data/type";
 import Icon from "./Icon";
 
 export default function Gallery({
   images,
   placeholderCount = 0,
 }: GalleryProps) {
+  const { ui } = useContent();
   const dialog = useRef<HTMLDialogElement>(null);
-  const [selected, setSelected] = useState<GalleryImage | null>(null);
+  const [selectedSource, setSelectedSource] = useState<string | null>(null);
+  const selected = images.find((image) => image.src === selectedSource) ?? null;
 
   useEffect(() => {
     if (selected && !dialog.current?.open) dialog.current?.showModal();
@@ -31,7 +33,7 @@ export default function Gallery({
               className="group/gallery relative block h-full w-full cursor-zoom-in appearance-none border-0 bg-transparent p-0 text-left focus-visible:outline-[3px] focus-visible:outline-solid focus-visible:outline-gold focus-visible:outline-offset-[-3px]"
               type="button"
               aria-label={image.label}
-              onClick={() => setSelected(image)}
+              onClick={() => setSelectedSource(image.src)}
             >
               <img
                 className="h-full w-full object-cover [transition:transform_.5s] group-hover/gallery:[transform:scale(1.03)]"
@@ -60,7 +62,7 @@ export default function Gallery({
           ref={dialog}
           className="m-auto max-h-[92vh] max-w-[min(1200px,94vw)] border-0 bg-transparent p-0 backdrop:bg-[#080c24e0]"
           aria-label={ui.photoView}
-          onClose={() => setSelected(null)}
+          onClose={() => setSelectedSource(null)}
           onClick={(event) => {
             if (event.target === event.currentTarget) dialog.current?.close();
           }}

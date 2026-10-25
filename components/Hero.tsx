@@ -1,9 +1,12 @@
+"use client";
+
 import Link from "next/link";
-import { hero, ui } from "@/data";
+import { useContent } from "./LanguageProvider";
 import Icon from "./Icon";
 import { styles } from "./UI";
 
 export default function Hero() {
+  const { hero, ui } = useContent();
   return (
     <section
       className="overflow-hidden py-[clamp(40px,7vw,84px)] text-white [background:radial-gradient(700px_360px_at_85%_20%,#d99a0b33,transparent_70%),radial-gradient(600px_300px_at_0%_100%,#1f5fa873,transparent_70%),linear-gradient(135deg,#0c1440_0%,#131d55_45%,#1b2a6e_100%)]"

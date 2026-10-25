@@ -1,7 +1,9 @@
 import content from "./content.json";
-import type { SiteContent } from "./type";
+import type { LocalizedContent, SiteContent } from "./type";
 
-export const siteContent: SiteContent = content;
+export const contentByLanguage: LocalizedContent = content;
+
+export const siteContent: SiteContent = contentByLanguage.hi;
 
 export const {
   metadata,

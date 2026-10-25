@@ -3,12 +3,60 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { siteContent } from "@/data";
+import { contentByLanguage } from "@/data";
+import { useContent, useLanguage } from "./LanguageProvider";
 import Icon from "./Icon";
 import { styles } from "./UI";
 
+function LanguageToggle() {
+  const {
+    language,
+    setLanguage,
+    content: { ui },
+  } = useLanguage();
+
+  return (
+    <div
+      className="ml-auto inline-flex shrink-0 items-center gap-[14px] pl-[12px] text-[.95rem] leading-[1.3] text-[#ffffffc7] [@media(860px<width<=1080px)]:gap-[6px] [@media(860px<width<=1080px)]:pl-[6px] [@media(860px<width<=1080px)]:text-[.8rem]"
+      role="group"
+      aria-label={ui.languageToggle}
+    >
+      <Icon
+        name="globe"
+        className="size-[18px] shrink-0 [@media(860px<width<=1080px)]:hidden"
+      />
+      <button
+        type="button"
+        lang="hi"
+        aria-label={ui.switchToHindi}
+        aria-pressed={language === "hi"}
+        onClick={() => setLanguage("hi")}
+        className={`relative cursor-pointer bg-transparent py-[4px] transition-colors duration-200 hover:text-white after:absolute after:right-0 after:bottom-[-3px] after:left-0 after:h-[2px] after:bg-gold after:content-[''] ${language === "hi" ? "font-semibold text-white after:opacity-100" : "after:opacity-0"}`}
+      >
+        {ui.languageHindi}
+      </button>
+      <span aria-hidden="true" className="text-[#ffffff80]">
+        |
+      </span>
+      <button
+        type="button"
+        lang="en"
+        aria-label={ui.switchToEnglish}
+        aria-pressed={language === "en"}
+        onClick={() => setLanguage("en")}
+        className={`relative cursor-pointer bg-transparent py-[4px] transition-colors duration-200 hover:text-white after:absolute after:right-0 after:bottom-[-3px] after:left-0 after:h-[2px] after:bg-gold after:content-[''] ${language === "en" ? "font-semibold text-white after:opacity-100" : "after:opacity-0"}`}
+      >
+        {ui.languageEnglish}
+      </button>
+    </div>
+  );
+}
+
 export default function Navbar() {
-  const { header, ui } = siteContent;
+  const { header, ui } = useContent();
+  const { language } = useLanguage();
+  const secondaryNavigation =
+    contentByLanguage[language === "hi" ? "en" : "hi"].header.nav;
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -68,7 +116,7 @@ export default function Navbar() {
             </Link>
             <p
               className="m-0 flex flex-col items-end border-b-[3px] border-gold pb-[6px] font-serif leading-[1.4] font-bold whitespace-nowrap text-navy italic [@media(width<=1080px)]:hidden"
-              lang="hi"
+              lang={language}
             >
               {header.motto.map((line) => (
                 <span key={line}>{line}</span>
@@ -80,9 +128,11 @@ export default function Navbar() {
           className="sticky top-0 z-50 border-b-[3px] border-gold bg-navy"
           aria-label={ui.navigation}
         >
-          <div className={`${styles.wrap} [@media(width<=860px)]:py-[6px]`}>
+          <div
+            className={`${styles.wrap} flex items-center justify-between gap-x-[12px] [@media(width<=860px)]:min-h-[56.625px] [@media(width<=860px)]:flex-wrap [@media(width<=860px)]:gap-y-[.875px] [@media(width<=860px)]:py-[6px]`}
+          >
             <button
-              className="hidden cursor-pointer items-center gap-[8px] rounded-[8px] border-[1.5px] border-[#fff6] bg-transparent px-[12px] py-[6px] font-semibold text-white [@media(width<=860px)]:inline-flex"
+              className="hidden cursor-pointer items-center gap-[8px] rounded-[8px] border-[1.5px] border-[#fff6] bg-transparent px-[12px] py-[6px] font-semibold text-white [@media(width<=860px)]:inline-flex [@media(width<=860px)]:self-start"
               type="button"
               aria-expanded={isOpen}
               aria-controls="nav-list"
@@ -92,10 +142,10 @@ export default function Navbar() {
               <span>{header.menuLabel}</span>
             </button>
             <ul
-              className={`m-0 flex flex-wrap list-none p-0 [@media(width<=860px)]:flex-col [@media(width<=860px)]:py-[6px] ${isOpen ? "[@media(width<=860px)]:flex" : "[@media(width<=860px)]:hidden"}`}
+              className={`m-0 flex min-w-0 flex-wrap list-none p-0 [@media(width<=860px)]:order-3 [@media(width<=860px)]:w-full [@media(width<=860px)]:basis-full [@media(width<=860px)]:flex-col [@media(width<=860px)]:py-[6px] ${isOpen ? "[@media(width<=860px)]:flex" : "[@media(width<=860px)]:hidden"}`}
               id="nav-list"
             >
-              {header.nav.map((item) => {
+              {header.nav.map((item, index) => {
                 const active =
                   (pathname.replace(/\/$/, "") || "/") ===
                   (item.href.replace(/\/$/, "") || "/");
@@ -112,15 +162,18 @@ export default function Navbar() {
                       </span>
                       <span
                         className="text-[.7rem] tracking-[.02em] text-[#ffffffad]"
-                        lang="en"
+                        lang={language === "hi" ? "en" : "hi"}
                       >
-                        {item.en}
+                        {language === "hi"
+                          ? item.en
+                          : secondaryNavigation[index].label}
                       </span>
                     </Link>
                   </li>
                 );
               })}
             </ul>
+            <LanguageToggle />
           </div>
         </nav>
       </header>

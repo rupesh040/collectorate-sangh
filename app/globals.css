@@ -26,7 +26,6 @@
   --default-transition-timing-function: ease;
 }
 
-/* Local font declarations and animation keyframes only. Layout uses TSX utilities. */
 @font-face {
   font-family: Noto Sans Devanagari Variable;
   font-style: normal;

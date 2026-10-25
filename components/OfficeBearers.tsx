@@ -1,12 +1,14 @@
+"use client";
+
 import { Fragment } from "react";
-import { siteContent } from "@/data";
+import { useContent } from "./LanguageProvider";
 import type { FullViewProps } from "@/data/type";
 import Icon from "./Icon";
 import SectionHeading from "./SectionHeading";
 import { styles } from "./UI";
 
 export default function OfficeBearers({ full = false }: FullViewProps) {
-  const { leadership, ui } = siteContent;
+  const { leadership, ui } = useContent();
   const groups = full ? leadership.groups : leadership.groups.slice(0, 1);
 
   return (

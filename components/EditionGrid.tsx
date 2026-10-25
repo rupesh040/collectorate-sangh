@@ -1,10 +1,13 @@
-import { siteContent } from "@/data";
+"use client";
+
+import { useContent } from "./LanguageProvider";
 import { styles } from "./UI";
 
 export default function EditionGrid() {
+  const { constitution } = useContent();
   return (
     <div className="grid grid-cols-[repeat(auto-fill,minmax(min(100%,300px),1fr))] gap-[18px]">
-      {siteContent.constitution.editions.map((edition) => (
+      {constitution.editions.map((edition) => (
         <article
           className={`${styles.card} ${styles.reveal} relative flex flex-col overflow-hidden border-t-4 px-[20px] pt-[20px] pb-[18px] shadow-none! ${edition.latest ? "border-t-gold [background:linear-gradient(#fffaf0,#fff_55%)]" : "border-t-line-strong"}`}
           key={edition.number}

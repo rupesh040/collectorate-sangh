@@ -1,5 +1,7 @@
+"use client";
+
 import Link from "next/link";
-import { about, header } from "@/data";
+import { useContent } from "./LanguageProvider";
 import type { FullViewProps } from "@/data/type";
 import Icon from "./Icon";
 import SectionHeading from "./SectionHeading";
@@ -7,6 +9,7 @@ import VisionMission from "./VisionMission";
 import { styles } from "./UI";
 
 export default function About({ full = false }: FullViewProps) {
+  const { about, header } = useContent();
   if (full)
     return (
       <>
@@ -18,9 +21,10 @@ export default function About({ full = false }: FullViewProps) {
               <SectionHeading heading={about.pageHeading} />
               <p className={styles.paragraph}>{about.intro}</p>
               <ol className="m-0 mb-[1.2em] grid list-none gap-[10px] p-0">
-                {about.points.map((point) => (
+                {about.points.map((point, index) => (
                   <li
-                    className="relative rounded-[8px] border border-line bg-surface py-[10px] pr-[14px] pl-[52px] before:absolute before:top-[10px] before:left-[14px] before:font-bold before:text-red first:before:content-['(क)'] nth-[2]:before:content-['(ख)'] nth-[3]:before:content-['(ग)'] nth-[4]:before:content-['(घ)']"
+                    data-marker={`(${about.pointMarkers[index]})`}
+                    className="relative rounded-[8px] border border-line bg-surface py-[10px] pr-[14px] pl-[52px] before:absolute before:top-[10px] before:left-[14px] before:font-bold before:text-red before:content-[attr(data-marker)]"
                     key={point}
                   >
                     {point}

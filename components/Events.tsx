@@ -1,4 +1,6 @@
-import { events, ui } from "@/data";
+"use client";
+
+import { useContent } from "./LanguageProvider";
 import type { EventCardProps, EventsProps } from "@/data/type";
 import Gallery from "./Gallery";
 import Icon from "./Icon";
@@ -6,6 +8,7 @@ import SectionHeading from "./SectionHeading";
 import { styles } from "./UI";
 
 function EventCard({ event, full = false }: EventCardProps) {
+  const { ui } = useContent();
   const Title = full ? "h2" : "h3";
 
   return (
@@ -82,6 +85,7 @@ function EventCard({ event, full = false }: EventCardProps) {
 }
 
 export default function Events({ full = false }: EventsProps) {
+  const { events } = useContent();
   if (!full) {
     return (
       <section className={styles.section} aria-labelledby="ev-title">

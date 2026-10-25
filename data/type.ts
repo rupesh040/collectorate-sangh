@@ -4,8 +4,22 @@ export interface RootLayoutProps {
   children: ReactNode;
 }
 
-export interface RoutePageProps {
-  params: Promise<{ slug: string }>;
+export type Language = "hi" | "en";
+
+export type PageKey =
+  | "about"
+  | "office-bearers"
+  | "events"
+  | "samvidhan"
+  | "employee-information"
+  | "contact";
+
+export type LocalizedContent = Record<Language, SiteContent>;
+
+export interface LanguageContextValue {
+  language: Language;
+  setLanguage: (language: Language) => void;
+  content: SiteContent;
 }
 
 export interface LinkItem {
@@ -165,6 +179,7 @@ export interface SiteContent {
     pageHeading: Heading;
     intro: string;
     points: string[];
+    pointMarkers: string[];
     conclusion: string;
     readMore: LinkItem;
     source: string;
@@ -265,7 +280,7 @@ export interface SiteContent {
     copyright: string;
     englishName: string;
   };
-  pages: Record<string, PageInfo>;
+  pages: Record<PageKey, PageInfo>;
   ui: {
     skipLink: string;
     menu: string;
@@ -286,6 +301,12 @@ export interface SiteContent {
     date: string;
     location: string;
     officeCategories: string;
+    languageToggle: string;
+    languageHindi: string;
+    languageEnglish: string;
+    languageLabel: string;
+    switchToHindi: string;
+    switchToEnglish: string;
   };
 }
 
@@ -300,7 +321,7 @@ export interface SectionHeadingProps {
 }
 
 export interface PageHeaderProps {
-  page: PageInfo;
+  pageKey: PageKey;
 }
 
 export interface ConstitutionProps {

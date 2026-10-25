@@ -1,10 +1,13 @@
+"use client";
+
 import Link from "next/link";
-import { employee, ui } from "@/data";
+import { useContent } from "./LanguageProvider";
 import type { FullViewProps } from "@/data/type";
 import Icon from "./Icon";
 import { styles } from "./UI";
 
 export default function EmployeeInformation({ full = false }: FullViewProps) {
+  const { employee, ui } = useContent();
   return (
     <section
       className={`${styles.section} ${full ? "" : styles.sectionAlt}`}

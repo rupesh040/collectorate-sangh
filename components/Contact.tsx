@@ -1,12 +1,14 @@
+"use client";
+
 import { Fragment } from "react";
-import { siteContent } from "@/data";
+import { useContent } from "./LanguageProvider";
 import type { FullViewProps } from "@/data/type";
 import Icon from "./Icon";
 import SectionHeading from "./SectionHeading";
 import { styles } from "./UI";
 
 export default function Contact({ full = false }: FullViewProps) {
-  const { contact, ui } = siteContent;
+  const { contact, ui } = useContent();
   const cards = (
     <div className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,300px),1fr))] gap-[20px]">
       {contact.people.map((person) => (

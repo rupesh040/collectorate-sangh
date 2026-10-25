@@ -1,20 +1,25 @@
+"use client";
+
 import Link from "next/link";
-import { siteContent } from "@/data";
 import type { PageHeaderProps } from "@/data/type";
+import { useContent } from "./LanguageProvider";
 import { styles } from "./UI";
 
-export default function PageHeader({ page }: PageHeaderProps) {
+export default function PageHeader({ pageKey }: PageHeaderProps) {
+  const { pages, ui, header } = useContent();
+  const page = pages[pageKey];
+
   return (
     <div className="py-[clamp(28px,5vw,48px)] text-white [background:radial-gradient(600px_240px_at_90%_0%,#d99a0b2e,transparent_70%),linear-gradient(135deg,#131d55,#1b2a6e)]">
       <div className={styles.wrap}>
-        <nav aria-label={siteContent.ui.breadcrumb}>
+        <nav aria-label={ui.breadcrumb}>
           <ol className="m-0 flex flex-wrap list-none p-0 text-[.875rem] text-[#ffffffbf]">
             <li>
               <Link
                 className="text-white underline underline-offset-[3px]"
                 href="/"
               >
-                {siteContent.header.nav[0].label}
+                {header.nav[0].label}
               </Link>
             </li>
             <li

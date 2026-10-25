@@ -1,6 +1,8 @@
 import type { IconProps } from "@/data/type";
 
 const paths: Record<string, string> = {
+  globe:
+    "M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM3 12h18M12 3c2.3 2.5 3.5 5.5 3.5 9s-1.2 6.5-3.5 9c-2.3-2.5-3.5-5.5-3.5-9S9.7 5.5 12 3ZM5.2 6.2a14 14 0 0 0 13.6 0M5.2 17.8a14 14 0 0 1 13.6 0",
   menu: "M4 7h16M4 12h16M4 17h16",
   close: "M6 6l12 12M18 6 6 18",
   document:

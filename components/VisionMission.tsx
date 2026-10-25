@@ -1,9 +1,12 @@
-import { visionMission } from "@/data";
+"use client";
+
+import { useContent } from "./LanguageProvider";
 import Icon from "./Icon";
 import SectionHeading from "./SectionHeading";
 import { styles } from "./UI";
 
 export default function VisionMission() {
+  const { visionMission } = useContent();
   const { vision, mission, heading } = visionMission;
   const iconStyle =
     "absolute top-[22px] right-[22px] grid size-[42px] place-items-center rounded-full bg-[#d99a0b29] text-gold";

@@ -1,6 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import { Fragment } from "react";
-import { siteContent } from "@/data";
+import { useContent } from "./LanguageProvider";
 import Icon from "./Icon";
 import { styles } from "./UI";
 
@@ -10,7 +12,7 @@ const footerHeading =
   "mb-[.8em] font-serif text-[1.05rem] leading-[1.35] font-bold text-gold-soft";
 
 export default function Footer() {
-  const { footer, contact, ui } = siteContent;
+  const { footer, contact, ui } = useContent();
 
   return (
     <footer className="border-t-[4px] border-gold bg-navy-950 text-[.93rem] text-[#fffc]">

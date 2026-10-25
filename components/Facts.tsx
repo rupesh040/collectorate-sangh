@@ -1,7 +1,10 @@
-import { facts } from "@/data";
+"use client";
+
+import { useContent } from "./LanguageProvider";
 import { styles } from "./UI";
 
 export default function Facts() {
+  const { facts } = useContent();
   return (
     <div className="border-b border-line bg-surface">
       <dl

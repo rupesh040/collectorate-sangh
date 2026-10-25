@@ -1,4 +1,6 @@
-import { siteContent } from "@/data";
+"use client";
+
+import { useContent } from "./LanguageProvider";
 import Icon from "./Icon";
 import { styles } from "./UI";
 
@@ -31,7 +33,7 @@ const accents = {
 } as const;
 
 export default function KeyPoints() {
-  const { constitution } = siteContent;
+  const { constitution } = useContent();
   const { infographic } = constitution;
 
   return (

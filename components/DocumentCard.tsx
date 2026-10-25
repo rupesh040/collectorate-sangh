@@ -1,9 +1,12 @@
-import { siteContent } from "@/data";
+"use client";
+
+import { useContent } from "./LanguageProvider";
 import type { DocumentCardProps } from "@/data/type";
 import Icon from "./Icon";
 import { styles } from "./UI";
 
 export default function DocumentCard({ document }: DocumentCardProps) {
+  const { ui } = useContent();
   return (
     <article
       className={`${styles.card} ${styles.cardHover} ${styles.reveal} group/document grid grid-cols-[170px_1fr] overflow-hidden [@media(width<=520px)]:grid-cols-1`}
@@ -55,7 +58,7 @@ export default function DocumentCard({ document }: DocumentCardProps) {
             {document.view.label}
             <span className="sr-only">
               {" "}
-              — {document.title} {siteContent.ui.newWindow}
+              — {document.title} {ui.newWindow}
             </span>
           </a>
           <a

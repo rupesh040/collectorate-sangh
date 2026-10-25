@@ -1,4 +1,3 @@
-/** Shared Tailwind utility strings; all component layout lives in TSX. */
 export const styles = {
   wrap: "mx-auto w-full max-w-[1180px] px-[clamp(16px,4vw,32px)]",
   section: "py-[clamp(48px,7vw,88px)]",
