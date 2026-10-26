@@ -253,15 +253,6 @@
         {
           "year": "2022",
           "label": "पदाधिकारी - 2022",
-          "leaders": [],
-          "groups": [],
-          "source": "",
-          "emptyTitle": "2022 के अभिलेख शीघ्र जोड़े जाएंगे",
-          "emptyText": "वर्ष 2022 के पदाधिकारियों की सत्यापित सूची उपलब्ध होने पर यहाँ प्रकाशित की जाएगी।"
-        },
-        {
-          "year": "2026",
-          "label": "पदाधिकारी - 2026",
           "leaders": [
             {
               "name": "सुशील कुमार त्रिपाठी",
@@ -693,6 +684,808 @@
             }
           ],
           "source": "स्रोत : संघ का आधिकारिक पत्रशीर्ष, दिनांक 25.07.2026",
+          "emptyTitle": "",
+          "emptyText": ""
+        },
+        {
+          "year": "2026",
+          "label": "पदाधिकारी - 2026",
+          "leaders": [
+            {
+              "name": "जगदीश निगम",
+              "role": "प्रान्तीय अध्यक्ष",
+              "base": "जनपद : हमीरपुर",
+              "phones": [
+                {
+                  "label": "7000337571",
+                  "href": "tel:+917000337571"
+                },
+                {
+                  "label": "9415417582",
+                  "href": "tel:+919415417582"
+                }
+              ],
+              "email": "",
+              "initial": "ज",
+              "positionNumber": 1
+            },
+            {
+              "name": "महेन्द्र पाण्डेय",
+              "role": "प्रान्तीय महामंत्री",
+              "base": "जनपद : प्रयागराज",
+              "phones": [
+                {
+                  "label": "9335420584",
+                  "href": "tel:+919335420584"
+                }
+              ],
+              "email": "",
+              "initial": "म",
+              "positionNumber": 3
+            }
+          ],
+          "groups": [
+            {
+              "id": "grp-prantiya",
+              "title": "प्रान्तीय पदाधिकारी",
+              "en": "State Office Bearers",
+              "count": 11,
+              "members": [
+                {
+                  "name": "अजीत उपाध्याय",
+                  "role": "प्रान्तीय वरिष्ठ उपाध्यक्ष",
+                  "positionNumber": 2,
+                  "district": "मथुरा",
+                  "phones": [
+                    {
+                      "label": "9411207799",
+                      "href": "tel:+919411207799"
+                    },
+                    {
+                      "label": "9411441188",
+                      "href": "tel:+919411441188"
+                    }
+                  ]
+                },
+                {
+                  "name": "कौशल कुमार उपाध्याय",
+                  "role": "प्रान्तीय कनिष्ठ उपाध्यक्ष प्रथम",
+                  "positionNumber": 4,
+                  "district": "बलिया",
+                  "phones": [
+                    {
+                      "label": "9415690515",
+                      "href": "tel:+919415690515"
+                    }
+                  ]
+                },
+                {
+                  "name": "ओम प्रकाश पाण्डे",
+                  "role": "प्रान्तीय कनिष्ठ उपाध्यक्ष द्वितीय",
+                  "positionNumber": 5,
+                  "district": "सिदार्थनगर",
+                  "phones": [
+                    {
+                      "label": "9935980422",
+                      "href": "tel:+919935980422"
+                    }
+                  ]
+                },
+                {
+                  "name": "आशीष कुमार",
+                  "role": "प्रान्तीय कनिष्ठ उपाध्यक्ष तृतीय",
+                  "positionNumber": 6,
+                  "district": "बस्ती",
+                  "phones": [
+                    {
+                      "label": "9984609027",
+                      "href": "tel:+919984609027"
+                    }
+                  ]
+                },
+                {
+                  "name": "शैलेन्द्र कुमार पटेल",
+                  "role": "प्रान्तीय संगठन मंत्री प्रथम",
+                  "positionNumber": 7,
+                  "district": "प्रयागराज",
+                  "phones": [
+                    {
+                      "label": "9336838566",
+                      "href": "tel:+919336838566"
+                    }
+                  ]
+                },
+                {
+                  "name": "राजेन्द्र शर्मा",
+                  "role": "प्रान्तीय संगठन मंत्री द्वितीय",
+                  "positionNumber": 8,
+                  "district": "गोरखपुर",
+                  "phones": [
+                    {
+                      "label": "9005007243",
+                      "href": "tel:+919005007243"
+                    }
+                  ]
+                },
+                {
+                  "name": "नावेद सिद्दीकी",
+                  "role": "प्रान्तीय संगठन मंत्री तृतीय",
+                  "positionNumber": 9,
+                  "district": "मुरादाबाद",
+                  "phones": [
+                    {
+                      "label": "9760133087",
+                      "href": "tel:+919760133087"
+                    }
+                  ]
+                },
+                {
+                  "name": "राजेश कुमार वर्मा",
+                  "role": "प्रान्तीय संयुक्त मंत्री",
+                  "positionNumber": 10,
+                  "district": "मेरठ",
+                  "phones": [
+                    {
+                      "label": "9837463306",
+                      "href": "tel:+919837463306"
+                    }
+                  ]
+                },
+                {
+                  "name": "दुलीचन्द्र शर्मा",
+                  "role": "प्रान्तीय कोषाध्यक्ष",
+                  "positionNumber": 11,
+                  "district": "आगरा",
+                  "phones": [
+                    {
+                      "label": "7906090066",
+                      "href": "tel:+917906090066"
+                    },
+                    {
+                      "label": "9411964294",
+                      "href": "tel:+919411964294"
+                    }
+                  ]
+                },
+                {
+                  "name": "बृजेश कुमार श्रीवास्तव",
+                  "role": "प्रान्तीय सम्प्रेक्षक",
+                  "positionNumber": 12,
+                  "district": "कुशीनगर",
+                  "phones": [
+                    {
+                      "label": "8858304177",
+                      "href": "tel:+918858304177"
+                    }
+                  ]
+                },
+                {
+                  "name": "बिनाका मौर्या",
+                  "role": "प्रान्तीय सां0 एवं क्रीडा मंत्री",
+                  "positionNumber": 13,
+                  "district": "शाहजहाँपुर",
+                  "phones": [
+                    {
+                      "label": "7905077795",
+                      "href": "tel:+917905077795"
+                    }
+                  ]
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-manonit",
+              "title": "मनोनीत पदाधिकारी",
+              "en": "Nominated Office Bearers",
+              "count": 5,
+              "members": [
+                {
+                  "name": "",
+                  "role": "प्रान्तीय मुख्य सचेतक",
+                  "positionNumber": 14,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "प्रान्तीय प्रवक्ता",
+                  "positionNumber": 15,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "प्रान्तीय कार्यालय सचिव",
+                  "positionNumber": 16,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "प्रान्तीय मीडिया प्रभारी",
+                  "positionNumber": 17,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "प्रान्तीय प्रचारक",
+                  "positionNumber": 18,
+                  "district": "",
+                  "phones": []
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-zonal-adhyaksh",
+              "title": "जोनल अध्यक्ष",
+              "en": "Zonal Presidents",
+              "count": 6,
+              "members": [
+                {
+                  "name": "दिलीप कुमार",
+                  "role": "जोनल अध्यक्ष जोन प्रथम",
+                  "positionNumber": 19,
+                  "district": "सिदार्थनगर",
+                  "phones": [
+                    {
+                      "label": "7897309897",
+                      "href": "tel:+917897309897"
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "role": "जोनल अध्यक्ष जोन द्वितीय",
+                  "positionNumber": 20,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "धर्मेन्द्र सिंह",
+                  "role": "जोनल अध्यक्ष जोन तृतीय",
+                  "positionNumber": 21,
+                  "district": "हमीरपुर",
+                  "phones": [
+                    {
+                      "label": "9415589360",
+                      "href": "tel:+919415589360"
+                    }
+                  ]
+                },
+                {
+                  "name": "भूपेन्द्र कुमार",
+                  "role": "जोनल अध्यक्ष जोन चतुर्थ",
+                  "positionNumber": 22,
+                  "district": "गौतमबुद्ध नगर",
+                  "phones": [
+                    {
+                      "label": "9278655322",
+                      "href": "tel:+919278655322"
+                    }
+                  ]
+                },
+                {
+                  "name": "अनन्त कुमार शर्मा",
+                  "role": "जोनल अध्यक्ष जोन पंचम",
+                  "positionNumber": 23,
+                  "district": "एटा",
+                  "phones": [
+                    {
+                      "label": "9411851841",
+                      "href": "tel:+919411851841"
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "role": "जोनल अध्यक्ष जोन षष्ठम",
+                  "positionNumber": 24,
+                  "district": "",
+                  "phones": []
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-zonal-mantri",
+              "title": "जोनल मंत्री",
+              "en": "Zonal Secretaries",
+              "count": 6,
+              "members": [
+                {
+                  "name": "मनोज कुमार",
+                  "role": "जोनल मंत्री जोनल प्रथम",
+                  "positionNumber": 25,
+                  "district": "देवरिया",
+                  "phones": [
+                    {
+                      "label": "9415387238",
+                      "href": "tel:+919415387238"
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "role": "जोनल मंत्री जोन द्वितीय",
+                  "positionNumber": 26,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "जोनल मंत्री जोन तृतीय",
+                  "positionNumber": 27,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "निशान्त कुमार",
+                  "role": "जोनल मंत्री जोन चतुर्थ",
+                  "positionNumber": 28,
+                  "district": "सहारनपुर",
+                  "phones": [
+                    {
+                      "label": "8979480117",
+                      "href": "tel:+918979480117"
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "role": "जोनल मंत्री जोन पंचम",
+                  "positionNumber": 29,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "जोनल मंत्री जोन षष्ठम",
+                  "positionNumber": 30,
+                  "district": "",
+                  "phones": []
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-mandal-adhyaksh",
+              "title": "मण्डल अध्यक्ष",
+              "en": "Divisional Presidents",
+              "count": 18,
+              "members": [
+                {
+                  "name": "गिरीश चन्द सिंह",
+                  "role": "मण्डल अध्यक्ष आजमगढ",
+                  "positionNumber": 31,
+                  "district": "आजमगढ",
+                  "phones": [
+                    {
+                      "label": "9415575607",
+                      "href": "tel:+919415575607"
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "role": "मण्डल अध्यक्ष बस्ती",
+                  "positionNumber": 32,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "राहुल कुमार चतुर्वेदी",
+                  "role": "मण्डल अध्यक्ष–गोरखपुर",
+                  "positionNumber": 33,
+                  "district": "कुशीनगर",
+                  "phones": [
+                    {
+                      "label": "9415663778",
+                      "href": "tel:+919415663778"
+                    }
+                  ]
+                },
+                {
+                  "name": "नीरज सिंह",
+                  "role": "मण्डल अध्यक्ष वाराणसी",
+                  "positionNumber": 34,
+                  "district": "वाराणसी",
+                  "phones": [
+                    {
+                      "label": "6392677624",
+                      "href": "tel:+916392677624"
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "role": "मण्डल अध्यक्ष मिर्जापुर",
+                  "positionNumber": 35,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "विनोद कुमार द्विवेद्वी",
+                  "role": "मण्डल अध्यक्ष प्रयागराज",
+                  "positionNumber": 36,
+                  "district": "प्रयागराज",
+                  "phones": [
+                    {
+                      "label": "6415419010",
+                      "href": "tel:+916415419010"
+                    }
+                  ]
+                },
+                {
+                  "name": "धनेश कुमार",
+                  "role": "मण्डल अध्यक्ष चित्रकुट धाम",
+                  "positionNumber": 37,
+                  "district": "महोबा",
+                  "phones": [
+                    {
+                      "label": "8756725082",
+                      "href": "tel:+918756725082"
+                    },
+                    {
+                      "label": "9519737055",
+                      "href": "tel:+919519737055"
+                    }
+                  ]
+                },
+                {
+                  "name": "राहुल सक्सेना",
+                  "role": "मण्डल अध्यक्ष झाँसी",
+                  "positionNumber": 38,
+                  "district": "ललितपुर",
+                  "phones": []
+                },
+                {
+                  "name": "अखिलेश कुमार द्विवेदी",
+                  "role": "मण्डल अध्यक्ष कानपुर",
+                  "positionNumber": 39,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "अनिल मौर्य",
+                  "role": "मण्डल अध्यक्ष मेरठ",
+                  "positionNumber": 40,
+                  "district": "मेरठ",
+                  "phones": [
+                    {
+                      "label": "9639506177",
+                      "href": "tel:+919639506177"
+                    }
+                  ]
+                },
+                {
+                  "name": "सतीश कुमार",
+                  "role": "मण्डल अध्यक्ष मुरादाबाद",
+                  "positionNumber": 41,
+                  "district": "बिजनौर",
+                  "phones": [
+                    {
+                      "label": "9389293349",
+                      "href": "tel:+919389293349"
+                    }
+                  ]
+                },
+                {
+                  "name": "नरेन्द्र सिंह",
+                  "role": "मण्डल अध्यक्ष सहारनपुर",
+                  "positionNumber": 42,
+                  "district": "मुजफ्फर नगर",
+                  "phones": [
+                    {
+                      "label": "9412507317",
+                      "href": "tel:+919412507317"
+                    }
+                  ]
+                },
+                {
+                  "name": "राजेन्द्र प्रसाद",
+                  "role": "मण्डल अध्यक्ष आगरा",
+                  "positionNumber": 43,
+                  "district": "आगरा",
+                  "phones": [
+                    {
+                      "label": "9720762090",
+                      "href": "tel:+919720762090"
+                    }
+                  ]
+                },
+                {
+                  "name": "अभिषेक कुमार",
+                  "role": "मण्डल अध्यक्ष अलीगढ",
+                  "positionNumber": 44,
+                  "district": "एटा",
+                  "phones": [
+                    {
+                      "label": "9719403312",
+                      "href": "tel:+919719403312"
+                    }
+                  ]
+                },
+                {
+                  "name": "अश्वनी राजा",
+                  "role": "मण्डल अध्यक्ष बरेली",
+                  "positionNumber": 45,
+                  "district": "पीलीभीत",
+                  "phones": [
+                    {
+                      "label": "9412134279",
+                      "href": "tel:+919412134279"
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "role": "मण्डल अध्यक्ष देवीपाटन",
+                  "positionNumber": 46,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "मण्डल अध्यक्ष अयोध्या",
+                  "positionNumber": 47,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "मण्डल अध्यक्ष लखनऊ",
+                  "positionNumber": 48,
+                  "district": "",
+                  "phones": []
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-mandal-mantri",
+              "title": "मण्डल मंत्री",
+              "en": "Divisional Secretaries",
+              "count": 18,
+              "members": [
+                {
+                  "name": "गौरव श्रीवास्तव",
+                  "role": "मण्डल मंत्री आजमगढ",
+                  "positionNumber": 49,
+                  "district": "बलिया",
+                  "phones": []
+                },
+                {
+                  "name": "अजय कुमार पाठक",
+                  "role": "मण्डल मंत्री बस्ती",
+                  "positionNumber": 50,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "उत्कर्ष श्रीवास्तव",
+                  "role": "मण्डल मंत्री गोरखपुर",
+                  "positionNumber": 51,
+                  "district": "महाराजगंज",
+                  "phones": [
+                    {
+                      "label": "8090922509",
+                      "href": "tel:+918090922509"
+                    },
+                    {
+                      "label": "9450518311",
+                      "href": "tel:+919450518311"
+                    }
+                  ]
+                },
+                {
+                  "name": "चन्द्र भूषण",
+                  "role": "मण्डल मंत्री वाराणसी",
+                  "positionNumber": 52,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "मण्डल मंत्री मिर्जापुर",
+                  "positionNumber": 53,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "रजमे हसन",
+                  "role": "मण्डल मत्री प्रयागराज",
+                  "positionNumber": 54,
+                  "district": "प्रयागराज",
+                  "phones": [
+                    {
+                      "label": "9450635531",
+                      "href": "tel:+919450635531"
+                    }
+                  ]
+                },
+                {
+                  "name": "दिलशाद अहमद",
+                  "role": "मण्डल मंत्री चित्रकुट धाम",
+                  "positionNumber": 55,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "प्रदीप कुमार",
+                  "role": "मण्डल मंत्री झांसी",
+                  "positionNumber": 56,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "नीलम लता",
+                  "role": "मण्डल मंत्री कानपुर",
+                  "positionNumber": 57,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "प्रमोद कुमार",
+                  "role": "मण्डल मंत्री मेरठ",
+                  "positionNumber": 58,
+                  "district": "मेरठ",
+                  "phones": []
+                },
+                {
+                  "name": "दीपक कुमार सक्सेना",
+                  "role": "मण्डल मंत्री मुरादाबाद",
+                  "positionNumber": 59,
+                  "district": "रामपुर",
+                  "phones": []
+                },
+                {
+                  "name": "महताब अली",
+                  "role": "मण्डल मंत्री सहारनपुर",
+                  "positionNumber": 60,
+                  "district": "मुजफ्फर नगर",
+                  "phones": [
+                    {
+                      "label": "9639126739",
+                      "href": "tel:+919639126739"
+                    }
+                  ]
+                },
+                {
+                  "name": "अमित कुमार दुवे",
+                  "role": "मण्डल मंत्री आगरा",
+                  "positionNumber": 61,
+                  "district": "मैनपुरी",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "मण्डल मंत्री अलीगढ",
+                  "positionNumber": 62,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "अमित यादव",
+                  "role": "मण्डल मंत्री बरेली",
+                  "positionNumber": 63,
+                  "district": "शाहजहाँपुर",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "मण्डल मंत्री देवीपाटन",
+                  "positionNumber": 64,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "मण्डल मंत्री अयोध्या",
+                  "positionNumber": 65,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "मण्डल मंत्री लखनऊ",
+                  "positionNumber": 66,
+                  "district": "",
+                  "phones": []
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-karyakarini",
+              "title": "मनोनीत प्रान्तीय कार्यकारिणी सदस्य",
+              "en": "Nominated State Executive Members",
+              "count": 11,
+              "members": [
+                {
+                  "name": "",
+                  "role": "प्रान्तीय कार्यकारिणी सदस्य",
+                  "positionNumber": 67,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "प्रान्तीय कार्यकारिणी सदस्य",
+                  "positionNumber": 68,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "प्रान्तीय कार्यकारिणी सदस्य",
+                  "positionNumber": 69,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "प्रान्तीय कार्यकारिणी सदस्य",
+                  "positionNumber": 70,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "प्रान्तीय कार्यकारिणी सदस्य",
+                  "positionNumber": 71,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "प्रान्तीय कार्यकारिणी सदस्य",
+                  "positionNumber": 72,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "प्रान्तीय कार्यकारिणी सदस्य",
+                  "positionNumber": 73,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "प्रान्तीय कार्यकारिणी सदस्य",
+                  "positionNumber": 74,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "प्रान्तीय कार्यकारिणी सदस्य",
+                  "positionNumber": 75,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "प्रान्तीय कार्यकारिणी सदस्य",
+                  "positionNumber": 76,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "प्रान्तीय कार्यकारिणी सदस्य",
+                  "positionNumber": 77,
+                  "district": "",
+                  "phones": []
+                }
+              ],
+              "namedList": false
+            }
+          ],
+          "source": "स्रोत : दिनांक 12.09.2026 को लखनऊ में सम्पन्न अधिवेशन में निर्वाचित प्रान्तीय कार्यकारिणी के पदाधिकारीगण की सूची।",
           "emptyTitle": "",
           "emptyText": ""
         }
@@ -1289,7 +2082,9 @@
       "languageEnglish": "English",
       "languageLabel": "भाषा",
       "switchToHindi": "हिंदी में देखें",
-      "switchToEnglish": "अंग्रेज़ी में देखें"
+      "switchToEnglish": "अंग्रेज़ी में देखें",
+      "nameNotProvided": "नाम उपलब्ध नहीं",
+      "district": "जनपद"
     }
   },
   "en": {
@@ -1546,15 +2341,6 @@
         {
           "year": "2022",
           "label": "Office Bearers - 2022",
-          "leaders": [],
-          "groups": [],
-          "source": "",
-          "emptyTitle": "2022 records will be added soon",
-          "emptyText": "The verified list of office bearers for 2022 will be published here when it is available."
-        },
-        {
-          "year": "2026",
-          "label": "Office Bearers - 2026",
           "leaders": [
             {
               "name": "Sushil Kumar Tripathi",
@@ -1986,6 +2772,808 @@
             }
           ],
           "source": "Source: Sangh’s official letterhead, dated 25.07.2026",
+          "emptyTitle": "",
+          "emptyText": ""
+        },
+        {
+          "year": "2026",
+          "label": "Office Bearers - 2026",
+          "leaders": [
+            {
+              "name": "Jagdish Nigam",
+              "role": "State President",
+              "base": "District: Hamirpur",
+              "phones": [
+                {
+                  "label": "7000337571",
+                  "href": "tel:+917000337571"
+                },
+                {
+                  "label": "9415417582",
+                  "href": "tel:+919415417582"
+                }
+              ],
+              "email": "",
+              "initial": "J",
+              "positionNumber": 1
+            },
+            {
+              "name": "Mahendra Pandey",
+              "role": "State General Secretary",
+              "base": "District: Prayagraj",
+              "phones": [
+                {
+                  "label": "9335420584",
+                  "href": "tel:+919335420584"
+                }
+              ],
+              "email": "",
+              "initial": "M",
+              "positionNumber": 3
+            }
+          ],
+          "groups": [
+            {
+              "id": "grp-prantiya",
+              "title": "State Office Bearers",
+              "en": "State Office Bearers",
+              "count": 11,
+              "members": [
+                {
+                  "name": "Ajeet Upadhyay",
+                  "role": "State Senior Vice President",
+                  "positionNumber": 2,
+                  "district": "Mathura",
+                  "phones": [
+                    {
+                      "label": "9411207799",
+                      "href": "tel:+919411207799"
+                    },
+                    {
+                      "label": "9411441188",
+                      "href": "tel:+919411441188"
+                    }
+                  ]
+                },
+                {
+                  "name": "Kaushal Kumar Upadhyay",
+                  "role": "State Junior Vice President I",
+                  "positionNumber": 4,
+                  "district": "Ballia",
+                  "phones": [
+                    {
+                      "label": "9415690515",
+                      "href": "tel:+919415690515"
+                    }
+                  ]
+                },
+                {
+                  "name": "Om Prakash Pande",
+                  "role": "State Junior Vice President II",
+                  "positionNumber": 5,
+                  "district": "Siddharthnagar",
+                  "phones": [
+                    {
+                      "label": "9935980422",
+                      "href": "tel:+919935980422"
+                    }
+                  ]
+                },
+                {
+                  "name": "Ashish Kumar",
+                  "role": "State Junior Vice President III",
+                  "positionNumber": 6,
+                  "district": "Basti",
+                  "phones": [
+                    {
+                      "label": "9984609027",
+                      "href": "tel:+919984609027"
+                    }
+                  ]
+                },
+                {
+                  "name": "Shailendra Kumar Patel",
+                  "role": "State Organizing Secretary I",
+                  "positionNumber": 7,
+                  "district": "Prayagraj",
+                  "phones": [
+                    {
+                      "label": "9336838566",
+                      "href": "tel:+919336838566"
+                    }
+                  ]
+                },
+                {
+                  "name": "Rajendra Sharma",
+                  "role": "State Organizing Secretary II",
+                  "positionNumber": 8,
+                  "district": "Gorakhpur",
+                  "phones": [
+                    {
+                      "label": "9005007243",
+                      "href": "tel:+919005007243"
+                    }
+                  ]
+                },
+                {
+                  "name": "Naved Siddiqui",
+                  "role": "State Organizing Secretary III",
+                  "positionNumber": 9,
+                  "district": "Moradabad",
+                  "phones": [
+                    {
+                      "label": "9760133087",
+                      "href": "tel:+919760133087"
+                    }
+                  ]
+                },
+                {
+                  "name": "Rajesh Kumar Verma",
+                  "role": "State Joint Secretary",
+                  "positionNumber": 10,
+                  "district": "Meerut",
+                  "phones": [
+                    {
+                      "label": "9837463306",
+                      "href": "tel:+919837463306"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dulichandra Sharma",
+                  "role": "State Treasurer",
+                  "positionNumber": 11,
+                  "district": "Agra",
+                  "phones": [
+                    {
+                      "label": "7906090066",
+                      "href": "tel:+917906090066"
+                    },
+                    {
+                      "label": "9411964294",
+                      "href": "tel:+919411964294"
+                    }
+                  ]
+                },
+                {
+                  "name": "Brijesh Kumar Srivastava",
+                  "role": "State Auditor",
+                  "positionNumber": 12,
+                  "district": "Kushinagar",
+                  "phones": [
+                    {
+                      "label": "8858304177",
+                      "href": "tel:+918858304177"
+                    }
+                  ]
+                },
+                {
+                  "name": "Binaka Maurya",
+                  "role": "State Cultural and Sports Secretary",
+                  "positionNumber": 13,
+                  "district": "Shahjahanpur",
+                  "phones": [
+                    {
+                      "label": "7905077795",
+                      "href": "tel:+917905077795"
+                    }
+                  ]
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-manonit",
+              "title": "Nominated Office Bearers",
+              "en": "Nominated Office Bearers",
+              "count": 5,
+              "members": [
+                {
+                  "name": "",
+                  "role": "State Chief Whip",
+                  "positionNumber": 14,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "State Spokesperson",
+                  "positionNumber": 15,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "State Office Secretary",
+                  "positionNumber": 16,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "State Media In-charge",
+                  "positionNumber": 17,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "State Publicity Secretary",
+                  "positionNumber": 18,
+                  "district": "",
+                  "phones": []
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-zonal-adhyaksh",
+              "title": "Zonal Presidents",
+              "en": "Zonal Presidents",
+              "count": 6,
+              "members": [
+                {
+                  "name": "Dilip Kumar",
+                  "role": "Zonal President, Zone I",
+                  "positionNumber": 19,
+                  "district": "Siddharthnagar",
+                  "phones": [
+                    {
+                      "label": "7897309897",
+                      "href": "tel:+917897309897"
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "role": "Zonal President, Zone II",
+                  "positionNumber": 20,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "Dharmendra Singh",
+                  "role": "Zonal President, Zone III",
+                  "positionNumber": 21,
+                  "district": "Hamirpur",
+                  "phones": [
+                    {
+                      "label": "9415589360",
+                      "href": "tel:+919415589360"
+                    }
+                  ]
+                },
+                {
+                  "name": "Bhupendra Kumar",
+                  "role": "Zonal President, Zone IV",
+                  "positionNumber": 22,
+                  "district": "Gautam Buddha Nagar",
+                  "phones": [
+                    {
+                      "label": "9278655322",
+                      "href": "tel:+919278655322"
+                    }
+                  ]
+                },
+                {
+                  "name": "Anant Kumar Sharma",
+                  "role": "Zonal President, Zone V",
+                  "positionNumber": 23,
+                  "district": "Etah",
+                  "phones": [
+                    {
+                      "label": "9411851841",
+                      "href": "tel:+919411851841"
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "role": "Zonal President, Zone VI",
+                  "positionNumber": 24,
+                  "district": "",
+                  "phones": []
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-zonal-mantri",
+              "title": "Zonal Secretaries",
+              "en": "Zonal Secretaries",
+              "count": 6,
+              "members": [
+                {
+                  "name": "Manoj Kumar",
+                  "role": "Zonal Secretary, Zone I",
+                  "positionNumber": 25,
+                  "district": "Deoria",
+                  "phones": [
+                    {
+                      "label": "9415387238",
+                      "href": "tel:+919415387238"
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "role": "Zonal Secretary, Zone II",
+                  "positionNumber": 26,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "Zonal Secretary, Zone III",
+                  "positionNumber": 27,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "Nishant Kumar",
+                  "role": "Zonal Secretary, Zone IV",
+                  "positionNumber": 28,
+                  "district": "Saharanpur",
+                  "phones": [
+                    {
+                      "label": "8979480117",
+                      "href": "tel:+918979480117"
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "role": "Zonal Secretary, Zone V",
+                  "positionNumber": 29,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "Zonal Secretary, Zone VI",
+                  "positionNumber": 30,
+                  "district": "",
+                  "phones": []
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-mandal-adhyaksh",
+              "title": "Divisional Presidents",
+              "en": "Divisional Presidents",
+              "count": 18,
+              "members": [
+                {
+                  "name": "Girish Chand Singh",
+                  "role": "Divisional President, Azamgarh",
+                  "positionNumber": 31,
+                  "district": "Azamgarh",
+                  "phones": [
+                    {
+                      "label": "9415575607",
+                      "href": "tel:+919415575607"
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "role": "Divisional President, Basti",
+                  "positionNumber": 32,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "Rahul Kumar Chaturvedi",
+                  "role": "Divisional President, Gorakhpur",
+                  "positionNumber": 33,
+                  "district": "Kushinagar",
+                  "phones": [
+                    {
+                      "label": "9415663778",
+                      "href": "tel:+919415663778"
+                    }
+                  ]
+                },
+                {
+                  "name": "Neeraj Singh",
+                  "role": "Divisional President, Varanasi",
+                  "positionNumber": 34,
+                  "district": "Varanasi",
+                  "phones": [
+                    {
+                      "label": "6392677624",
+                      "href": "tel:+916392677624"
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "role": "Divisional President, Mirzapur",
+                  "positionNumber": 35,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "Vinod Kumar Dwivedwi",
+                  "role": "Divisional President, Prayagraj",
+                  "positionNumber": 36,
+                  "district": "Prayagraj",
+                  "phones": [
+                    {
+                      "label": "6415419010",
+                      "href": "tel:+916415419010"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dhanesh Kumar",
+                  "role": "Divisional President, Chitrakoot Dham",
+                  "positionNumber": 37,
+                  "district": "Mahoba",
+                  "phones": [
+                    {
+                      "label": "8756725082",
+                      "href": "tel:+918756725082"
+                    },
+                    {
+                      "label": "9519737055",
+                      "href": "tel:+919519737055"
+                    }
+                  ]
+                },
+                {
+                  "name": "Rahul Saxena",
+                  "role": "Divisional President, Jhansi",
+                  "positionNumber": 38,
+                  "district": "Lalitpur",
+                  "phones": []
+                },
+                {
+                  "name": "Akhilesh Kumar Dwivedi",
+                  "role": "Divisional President, Kanpur",
+                  "positionNumber": 39,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "Anil Maurya",
+                  "role": "Divisional President, Meerut",
+                  "positionNumber": 40,
+                  "district": "Meerut",
+                  "phones": [
+                    {
+                      "label": "9639506177",
+                      "href": "tel:+919639506177"
+                    }
+                  ]
+                },
+                {
+                  "name": "Satish Kumar",
+                  "role": "Divisional President, Moradabad",
+                  "positionNumber": 41,
+                  "district": "Bijnor",
+                  "phones": [
+                    {
+                      "label": "9389293349",
+                      "href": "tel:+919389293349"
+                    }
+                  ]
+                },
+                {
+                  "name": "Narendra Singh",
+                  "role": "Divisional President, Saharanpur",
+                  "positionNumber": 42,
+                  "district": "Muzaffarnagar",
+                  "phones": [
+                    {
+                      "label": "9412507317",
+                      "href": "tel:+919412507317"
+                    }
+                  ]
+                },
+                {
+                  "name": "Rajendra Prasad",
+                  "role": "Divisional President, Agra",
+                  "positionNumber": 43,
+                  "district": "Agra",
+                  "phones": [
+                    {
+                      "label": "9720762090",
+                      "href": "tel:+919720762090"
+                    }
+                  ]
+                },
+                {
+                  "name": "Abhishek Kumar",
+                  "role": "Divisional President, Aligarh",
+                  "positionNumber": 44,
+                  "district": "Etah",
+                  "phones": [
+                    {
+                      "label": "9719403312",
+                      "href": "tel:+919719403312"
+                    }
+                  ]
+                },
+                {
+                  "name": "Ashwani Raja",
+                  "role": "Divisional President, Bareilly",
+                  "positionNumber": 45,
+                  "district": "Pilibhit",
+                  "phones": [
+                    {
+                      "label": "9412134279",
+                      "href": "tel:+919412134279"
+                    }
+                  ]
+                },
+                {
+                  "name": "",
+                  "role": "Divisional President, Devipatan",
+                  "positionNumber": 46,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "Divisional President, Ayodhya",
+                  "positionNumber": 47,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "Divisional President, Lucknow",
+                  "positionNumber": 48,
+                  "district": "",
+                  "phones": []
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-mandal-mantri",
+              "title": "Divisional Secretaries",
+              "en": "Divisional Secretaries",
+              "count": 18,
+              "members": [
+                {
+                  "name": "Gaurav Srivastava",
+                  "role": "Divisional Secretary, Azamgarh",
+                  "positionNumber": 49,
+                  "district": "Ballia",
+                  "phones": []
+                },
+                {
+                  "name": "Ajay Kumar Pathak",
+                  "role": "Divisional Secretary, Basti",
+                  "positionNumber": 50,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "Utkarsh Srivastava",
+                  "role": "Divisional Secretary, Gorakhpur",
+                  "positionNumber": 51,
+                  "district": "Maharajganj",
+                  "phones": [
+                    {
+                      "label": "8090922509",
+                      "href": "tel:+918090922509"
+                    },
+                    {
+                      "label": "9450518311",
+                      "href": "tel:+919450518311"
+                    }
+                  ]
+                },
+                {
+                  "name": "Chandra Bhushan",
+                  "role": "Divisional Secretary, Varanasi",
+                  "positionNumber": 52,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "Divisional Secretary, Mirzapur",
+                  "positionNumber": 53,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "Rajme Hasan",
+                  "role": "Divisional Secretary, Prayagraj",
+                  "positionNumber": 54,
+                  "district": "Prayagraj",
+                  "phones": [
+                    {
+                      "label": "9450635531",
+                      "href": "tel:+919450635531"
+                    }
+                  ]
+                },
+                {
+                  "name": "Dilshad Ahmed",
+                  "role": "Divisional Secretary, Chitrakoot Dham",
+                  "positionNumber": 55,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "Pradeep Kumar",
+                  "role": "Divisional Secretary, Jhansi",
+                  "positionNumber": 56,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "Neelam Lata",
+                  "role": "Divisional Secretary, Kanpur",
+                  "positionNumber": 57,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "Pramod Kumar",
+                  "role": "Divisional Secretary, Meerut",
+                  "positionNumber": 58,
+                  "district": "Meerut",
+                  "phones": []
+                },
+                {
+                  "name": "Deepak Kumar Saxena",
+                  "role": "Divisional Secretary, Moradabad",
+                  "positionNumber": 59,
+                  "district": "Rampur",
+                  "phones": []
+                },
+                {
+                  "name": "Mahtab Ali",
+                  "role": "Divisional Secretary, Saharanpur",
+                  "positionNumber": 60,
+                  "district": "Muzaffarnagar",
+                  "phones": [
+                    {
+                      "label": "9639126739",
+                      "href": "tel:+919639126739"
+                    }
+                  ]
+                },
+                {
+                  "name": "Amit Kumar Duve",
+                  "role": "Divisional Secretary, Agra",
+                  "positionNumber": 61,
+                  "district": "Mainpuri",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "Divisional Secretary, Aligarh",
+                  "positionNumber": 62,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "Amit Yadav",
+                  "role": "Divisional Secretary, Bareilly",
+                  "positionNumber": 63,
+                  "district": "Shahjahanpur",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "Divisional Secretary, Devipatan",
+                  "positionNumber": 64,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "Divisional Secretary, Ayodhya",
+                  "positionNumber": 65,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "Divisional Secretary, Lucknow",
+                  "positionNumber": 66,
+                  "district": "",
+                  "phones": []
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-karyakarini",
+              "title": "Nominated State Executive Members",
+              "en": "Nominated State Executive Members",
+              "count": 11,
+              "members": [
+                {
+                  "name": "",
+                  "role": "State Executive Member",
+                  "positionNumber": 67,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "State Executive Member",
+                  "positionNumber": 68,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "State Executive Member",
+                  "positionNumber": 69,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "State Executive Member",
+                  "positionNumber": 70,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "State Executive Member",
+                  "positionNumber": 71,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "State Executive Member",
+                  "positionNumber": 72,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "State Executive Member",
+                  "positionNumber": 73,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "State Executive Member",
+                  "positionNumber": 74,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "State Executive Member",
+                  "positionNumber": 75,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "State Executive Member",
+                  "positionNumber": 76,
+                  "district": "",
+                  "phones": []
+                },
+                {
+                  "name": "",
+                  "role": "State Executive Member",
+                  "positionNumber": 77,
+                  "district": "",
+                  "phones": []
+                }
+              ],
+              "namedList": false
+            }
+          ],
+          "source": "Source: list of state executive office bearers elected at the convention held in Lucknow on 12 September 2026.",
           "emptyTitle": "",
           "emptyText": ""
         }
@@ -2582,7 +4170,9 @@
       "languageEnglish": "English",
       "languageLabel": "Language",
       "switchToHindi": "Switch to Hindi",
-      "switchToEnglish": "Switch to English"
+      "switchToEnglish": "Switch to English",
+      "nameNotProvided": "Name not provided",
+      "district": "District"
     }
   }
 }

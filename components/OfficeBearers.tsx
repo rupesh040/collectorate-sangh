@@ -39,7 +39,7 @@ function OfficeBearersRoster({ roster, full }: OfficeBearersRosterProps) {
         {roster.leaders.map((person) => (
           <article
             className={`${styles.card} ${styles.cardHover} ${styles.reveal} flex items-start gap-[20px] border-t-4 border-t-navy p-[24px] [@media(width<=420px)]:flex-col [@media(width<=420px)]:gap-[12px]`}
-            key={person.name}
+            key={person.positionNumber ?? person.name}
           >
             <div
               className="grid size-[72px] flex-none place-items-center rounded-full border-2 border-gold bg-[radial-gradient(circle_at_30%_30%,#fff,#f3e6bf)] font-serif text-[2rem] font-bold text-navy-900 shadow-[inset_0_0_0_4px_#fff]"
@@ -54,30 +54,37 @@ function OfficeBearersRoster({ roster, full }: OfficeBearersRosterProps) {
               <h3
                 className={`${styles.heading} mt-[.05em] mb-[.1em] text-[1.45rem]`}
               >
-                {person.name}
+                {person.name || ui.nameNotProvided}
               </h3>
               <p className="m-0 mb-[.5em] text-[.93rem] text-muted">
                 {person.base}
               </p>
               {full && (
                 <ul className="m-0 mt-[10px] grid list-none gap-[4px] p-0 text-[.93rem]">
-                  <li className="flex flex-wrap items-center gap-[8px] wrap-anywhere">
-                    <Icon name="phone" className="size-[16px] text-gold" />
-                    {person.phones.map((phone, index) => (
-                      <Fragment key={phone.href}>
-                        {index > 0 && ", "}
-                        <a className={styles.link} href={phone.href}>
-                          {phone.label}
-                        </a>
-                      </Fragment>
-                    ))}
-                  </li>
-                  <li className="flex flex-wrap items-center gap-[8px] wrap-anywhere">
-                    <Icon name="mail" className="size-[16px] text-gold" />
-                    <a className={styles.link} href={`mailto:${person.email}`}>
-                      {person.email}
-                    </a>
-                  </li>
+                  {person.phones.length > 0 && (
+                    <li className="flex flex-wrap items-center gap-[8px] wrap-anywhere">
+                      <Icon name="phone" className="size-[16px] text-gold" />
+                      {person.phones.map((phone, index) => (
+                        <Fragment key={phone.href}>
+                          {index > 0 && ", "}
+                          <a className={styles.link} href={phone.href}>
+                            {phone.label}
+                          </a>
+                        </Fragment>
+                      ))}
+                    </li>
+                  )}
+                  {person.email && (
+                    <li className="flex flex-wrap items-center gap-[8px] wrap-anywhere">
+                      <Icon name="mail" className="size-[16px] text-gold" />
+                      <a
+                        className={styles.link}
+                        href={`mailto:${person.email}`}
+                      >
+                        {person.email}
+                      </a>
+                    </li>
+                  )}
                 </ul>
               )}
             </div>
@@ -107,28 +114,58 @@ function OfficeBearersRoster({ roster, full }: OfficeBearersRosterProps) {
               className="m-0 grid list-none grid-cols-[repeat(auto-fill,minmax(min(100%,210px),1fr))] gap-[8px] p-0"
               aria-label={group.title}
             >
-              {group.members.map((member) => (
+              {group.members.map((member, index) => (
                 <li
                   className="relative rounded-[6px] border border-line bg-surface py-[8px] pr-[12px] pl-[30px] font-medium transition-[border-color,background-color] duration-200 before:absolute before:top-1/2 before:left-[13px] before:size-[7px] before:-translate-y-1/2 before:rounded-full before:bg-gold before:content-[''] hover:border-line-strong hover:bg-[#fffdf6]"
-                  key={member.name}
+                  key={member.positionNumber ?? `${member.name}-${index}`}
                 >
-                  {member.name}
+                  {member.name || ui.nameNotProvided}
                 </li>
               ))}
             </ul>
           ) : (
             <div className="grid grid-cols-[repeat(auto-fill,minmax(min(100%,250px),1fr))] gap-[14px]">
-              {group.members.map((member) => (
+              {group.members.map((member, index) => (
                 <article
-                  className={`${styles.cardHover} rounded-[8px] border border-line border-l-[3px] border-l-gold bg-surface px-[18px] py-[16px] shadow-none transition-[transform,box-shadow,border-color] duration-250`}
-                  key={member.name}
+                  className={`${styles.cardHover} min-w-0 rounded-[8px] border border-line border-l-[3px] border-l-gold bg-surface px-[18px] py-[16px] shadow-none transition-[transform,box-shadow,border-color] duration-250`}
+                  key={member.positionNumber ?? `${member.name}-${index}`}
                 >
                   <h4 className={`${styles.heading} m-0 text-[1.08rem]`}>
-                    {member.name}
+                    {member.name || ui.nameNotProvided}
                   </h4>
                   <p className="m-0 mt-[.15em] text-[.9rem] leading-[1.5] text-muted">
                     {member.role}
                   </p>
+                  {member.district && (
+                    <p className="m-0 mt-[8px] flex flex-wrap items-center gap-x-[6px] gap-y-[2px] text-[.85rem] leading-[1.5] wrap-anywhere text-muted">
+                      <Icon
+                        name="location"
+                        className="size-[14px] flex-none text-navy"
+                      />
+                      <span>
+                        {ui.district}: {member.district}
+                      </span>
+                    </p>
+                  )}
+                  {member.phones && member.phones.length > 0 && (
+                    <p className="m-0 mt-[6px] flex flex-wrap items-center gap-x-[8px] gap-y-[2px] text-[.9rem] leading-[1.5] wrap-anywhere">
+                      <Icon
+                        name="phone"
+                        className="size-[14px] flex-none text-navy"
+                      />
+                      {member.phones.map((phone, phoneIndex) => (
+                        <Fragment key={`${phone.href}-${phoneIndex}`}>
+                          {phoneIndex > 0 && ", "}
+                          <a
+                            className={`${styles.link} min-w-0 wrap-anywhere`}
+                            href={phone.href}
+                          >
+                            {phone.label}
+                          </a>
+                        </Fragment>
+                      ))}
+                    </p>
+                  )}
                 </article>
               ))}
             </div>

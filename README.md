@@ -70,7 +70,9 @@ Update `data/content.json`. Components import its typed exports from `data/index
 
 `content.json` contains matching `hi` and `en` objects for all pages, links, lists, tables, and accessibility labels. The navbar language buttons switch the whole website, preserve the current page, and save the preference in local storage. Components read the selected content through `useContent()`.
 
-The Office Bearers page groups records by year under `leadership.years`. The 2026 tab contains the verified roster; the 2022 tab displays the pending-records message until its list is supplied. Add names, roles, and category groups to the corresponding year in both languages to update it.
+The Office Bearers page groups records by year under `leadership.years`. The 2022 tab preserves the previous roster. The 2026 tab contains the list elected on 12 September 2026, transcribed from the supplied PDF, including districts and phone numbers. Blank names in the document are stored as empty values and displayed as “Name not provided.” Both years are available in Hindi and English.
+
+The build runs `scripts/prepare-static.cjs` to make Next.js route data available at the filenames requested by the browser when exporting on Windows. It leaves exports from other operating systems unchanged.
 
 All layout, typography, responsive rules, hover states, and pseudo-elements use Tailwind utility classes in the TSX components. `components/UI.tsx` shares repeated utility strings for containers, buttons, cards, headings, tables, and reveal animations. `app/globals.css` contains only the Tailwind import, theme tokens, local font declarations, and two animation keyframes; it has no global layout or component selectors.
 

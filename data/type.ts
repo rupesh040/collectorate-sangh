@@ -58,11 +58,15 @@ export interface ContactPerson {
   phones: LinkItem[];
   email: string;
   initial: string;
+  positionNumber?: number;
 }
 
 export interface OfficeBearer {
   name: string;
   role: string;
+  positionNumber?: number;
+  district?: string;
+  phones?: LinkItem[];
 }
 
 export interface LeadershipGroup {
@@ -316,6 +320,8 @@ export interface SiteContent {
     date: string;
     location: string;
     officeCategories: string;
+    nameNotProvided: string;
+    district: string;
     languageToggle: string;
     languageHindi: string;
     languageEnglish: string;

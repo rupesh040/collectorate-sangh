@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
     "build": "next build",
+    "postbuild": "node scripts/prepare-static.cjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
