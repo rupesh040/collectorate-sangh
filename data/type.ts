@@ -74,6 +74,21 @@ export interface LeadershipGroup {
   namedList: boolean;
 }
 
+export interface OfficeBearersYear {
+  year: string;
+  label: string;
+  leaders: ContactPerson[];
+  groups: LeadershipGroup[];
+  source: string;
+  emptyTitle: string;
+  emptyText: string;
+}
+
+export interface OfficeBearersRosterProps {
+  roster: OfficeBearersYear;
+  full: boolean;
+}
+
 export interface DocumentItem {
   eyebrow: string;
   title: string;
@@ -207,10 +222,10 @@ export interface SiteContent {
   };
   leadership: {
     heading: Heading;
-    leaders: ContactPerson[];
-    groups: LeadershipGroup[];
-    source: string;
     categoryLabel: string;
+    defaultYear: string;
+    yearTabsLabel: string;
+    years: OfficeBearersYear[];
   };
   constitution: {
     heading: Heading;

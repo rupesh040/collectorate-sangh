@@ -70,6 +70,8 @@ Update `data/content.json`. Components import its typed exports from `data/index
 
 `content.json` contains matching `hi` and `en` objects for all pages, links, lists, tables, and accessibility labels. The navbar language buttons switch the whole website, preserve the current page, and save the preference in local storage. Components read the selected content through `useContent()`.
 
+The Office Bearers page groups records by year under `leadership.years`. The 2026 tab contains the verified roster; the 2022 tab displays the pending-records message until its list is supplied. Add names, roles, and category groups to the corresponding year in both languages to update it.
+
 All layout, typography, responsive rules, hover states, and pseudo-elements use Tailwind utility classes in the TSX components. `components/UI.tsx` shares repeated utility strings for containers, buttons, cards, headings, tables, and reveal animations. `app/globals.css` contains only the Tailwind import, theme tokens, local font declarations, and two animation keyframes; it has no global layout or component selectors.
 
 Routes: `/`, `/about/`, `/office-bearers/`, `/events/`, `/samvidhan/`, `/employee-information/`, and `/contact/`.

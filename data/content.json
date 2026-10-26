@@ -246,438 +246,457 @@
           "href": "/office-bearers/"
         }
       },
-      "leaders": [
+      "categoryLabel": "श्रेणी :",
+      "defaultYear": "2026",
+      "yearTabsLabel": "पदाधिकारियों का वर्ष",
+      "years": [
         {
-          "name": "सुशील कुमार त्रिपाठी",
-          "role": "प्रान्तीय अध्यक्ष",
-          "base": "मुख्यालय सुल्तानपुर",
-          "phones": [
-            {
-              "label": "9415382132",
-              "href": "tel:+919415382132"
-            },
-            {
-              "label": "8953631184",
-              "href": "tel:+918953631184"
-            }
-          ],
-          "email": "sushiltripathi.up@gmail.com",
-          "initial": "स"
+          "year": "2022",
+          "label": "पदाधिकारी - 2022",
+          "leaders": [],
+          "groups": [],
+          "source": "",
+          "emptyTitle": "2022 के अभिलेख शीघ्र जोड़े जाएंगे",
+          "emptyText": "वर्ष 2022 के पदाधिकारियों की सत्यापित सूची उपलब्ध होने पर यहाँ प्रकाशित की जाएगी।"
         },
         {
-          "name": "अजीत उपाध्याय",
-          "role": "प्रान्तीय महामंत्री",
-          "base": "मुख्यालय फिरोजाबाद",
-          "phones": [
+          "year": "2026",
+          "label": "पदाधिकारी - 2026",
+          "leaders": [
             {
-              "label": "9411207799",
-              "href": "tel:+919411207799"
+              "name": "सुशील कुमार त्रिपाठी",
+              "role": "प्रान्तीय अध्यक्ष",
+              "base": "मुख्यालय सुल्तानपुर",
+              "phones": [
+                {
+                  "label": "9415382132",
+                  "href": "tel:+919415382132"
+                },
+                {
+                  "label": "8953631184",
+                  "href": "tel:+918953631184"
+                }
+              ],
+              "email": "sushiltripathi.up@gmail.com",
+              "initial": "स"
             },
             {
-              "label": "9411441188",
-              "href": "tel:+919411441188"
+              "name": "अजीत उपाध्याय",
+              "role": "प्रान्तीय महामंत्री",
+              "base": "मुख्यालय फिरोजाबाद",
+              "phones": [
+                {
+                  "label": "9411207799",
+                  "href": "tel:+919411207799"
+                },
+                {
+                  "label": "9411441188",
+                  "href": "tel:+919411441188"
+                }
+              ],
+              "email": "ajeetfir@gmail.com",
+              "initial": "अ"
             }
           ],
-          "email": "ajeetfir@gmail.com",
-          "initial": "अ"
+          "groups": [
+            {
+              "id": "grp-prantiya",
+              "title": "प्रान्तीय पदाधिकारी",
+              "en": "State Office Bearers",
+              "count": 10,
+              "members": [
+                {
+                  "name": "केन्द्रपाल सिंह",
+                  "role": "प्रान्तीय वरिष्ठ उपाध्यक्ष"
+                },
+                {
+                  "name": "जगदीश कुमार निगम",
+                  "role": "प्रान्तीय कनिष्ठ उपाध्यक्ष प्रथम"
+                },
+                {
+                  "name": "अशोक कुमार मिश्र",
+                  "role": "प्रान्तीय कनिष्ठ उपाध्यक्ष द्वितीय"
+                },
+                {
+                  "name": "राजीव श्रीवास्तव",
+                  "role": "प्रान्तीय कनिष्ठ उपाध्यक्ष तृतीय"
+                },
+                {
+                  "name": "शैलेन्द्र पटेल",
+                  "role": "प्रान्तीय संगठन मंत्री प्रथम"
+                },
+                {
+                  "name": "मुकेश कुमार",
+                  "role": "प्रान्तीय संगठन मंत्री द्वितीय"
+                },
+                {
+                  "name": "संजय कुमार शर्मा",
+                  "role": "प्रान्तीय संगठन मंत्री तृतीय"
+                },
+                {
+                  "name": "ओमप्रकाश पाण्डेय",
+                  "role": "प्रान्तीय कोषाध्यक्ष"
+                },
+                {
+                  "name": "विनय कुमार सिंह",
+                  "role": "प्रान्तीय सम्प्रेक्षक"
+                },
+                {
+                  "name": "खजान सिंह",
+                  "role": "प्रान्तीय सांस्कृतिक एवं क्रीडा मंत्री"
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-manonit",
+              "title": "मनोनीत प्रान्तीय पदाधिकारी",
+              "en": "Nominated State Office Bearers",
+              "count": 5,
+              "members": [
+                {
+                  "name": "नरेन्द्र सिंह",
+                  "role": "प्रान्तीय मुख्य सचेतक"
+                },
+                {
+                  "name": "श्रीमती नीरू सिंह",
+                  "role": "प्रान्तीय प्रवक्ता"
+                },
+                {
+                  "name": "गोपीकृष्ण",
+                  "role": "प्रान्तीय कार्यालय सचिव"
+                },
+                {
+                  "name": "शशिभूषण तिवारी",
+                  "role": "प्रान्तीय मीडिया प्रभारी"
+                },
+                {
+                  "name": "दुलीचन्द शर्मा",
+                  "role": "प्रान्तीय प्रचारक"
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-varishth",
+              "title": "वरिष्ठ प्रतिनिधि",
+              "en": "Senior Representatives",
+              "count": 5,
+              "members": [
+                {
+                  "name": "हरीश चौहान",
+                  "role": ""
+                },
+                {
+                  "name": "पवन कुमार श्रीवास्तव",
+                  "role": ""
+                },
+                {
+                  "name": "देवेन्द्र प्रताप सिंह",
+                  "role": ""
+                },
+                {
+                  "name": "सोहन सिंह",
+                  "role": ""
+                },
+                {
+                  "name": "विमल सक्सैना",
+                  "role": ""
+                }
+              ],
+              "namedList": true
+            },
+            {
+              "id": "grp-zonal-adhyaksh",
+              "title": "जोनल अध्यक्ष",
+              "en": "Zonal Presidents",
+              "count": 6,
+              "members": [
+                {
+                  "name": "बृजेश श्रीवास्तव",
+                  "role": ""
+                },
+                {
+                  "name": "सुनील कुमार सिंह",
+                  "role": ""
+                },
+                {
+                  "name": "धर्मेन्द्र सिंह",
+                  "role": ""
+                },
+                {
+                  "name": "राजेश कुमार वर्मा",
+                  "role": ""
+                },
+                {
+                  "name": "प्रभाकर शर्मा",
+                  "role": ""
+                },
+                {
+                  "name": "आलोक मिश्रा",
+                  "role": ""
+                }
+              ],
+              "namedList": true
+            },
+            {
+              "id": "grp-zonal-mantri",
+              "title": "जोनल मंत्री",
+              "en": "Zonal Secretaries",
+              "count": 6,
+              "members": [
+                {
+                  "name": "प्रेम सागर चौधरी",
+                  "role": ""
+                },
+                {
+                  "name": "दिलीप कुमार श्रीवास्तव",
+                  "role": ""
+                },
+                {
+                  "name": "मुन्ना बाबू",
+                  "role": ""
+                },
+                {
+                  "name": "नावेद सिद्दीकी",
+                  "role": ""
+                },
+                {
+                  "name": "मुकेश सक्सैना",
+                  "role": ""
+                },
+                {
+                  "name": "कौशल कुमार यादव",
+                  "role": ""
+                }
+              ],
+              "namedList": true
+            },
+            {
+              "id": "grp-mandal-adhyaksh",
+              "title": "मंडल अध्यक्ष",
+              "en": "Divisional Presidents",
+              "count": 18,
+              "members": [
+                {
+                  "name": "ब्रज बिहारी सिंह",
+                  "role": ""
+                },
+                {
+                  "name": "आशीष कुमार",
+                  "role": ""
+                },
+                {
+                  "name": "मनोज कुमार",
+                  "role": ""
+                },
+                {
+                  "name": "श्रवण कुमार",
+                  "role": ""
+                },
+                {
+                  "name": "रामलाल",
+                  "role": ""
+                },
+                {
+                  "name": "विनोद कुमार द्विवेदी",
+                  "role": ""
+                },
+                {
+                  "name": "प्रमोद कुमार सोनकर",
+                  "role": ""
+                },
+                {
+                  "name": "रामाश्रय त्रिपाठी",
+                  "role": ""
+                },
+                {
+                  "name": "धर्मेन्द्र कुमार शर्मा",
+                  "role": ""
+                },
+                {
+                  "name": "अनिल मौर्य",
+                  "role": ""
+                },
+                {
+                  "name": "सतीश कुमार",
+                  "role": ""
+                },
+                {
+                  "name": "अरविन्द कुमार",
+                  "role": ""
+                },
+                {
+                  "name": "नरेन्द्र कुमार भारद्वाज",
+                  "role": ""
+                },
+                {
+                  "name": "जयवीर सिंह",
+                  "role": ""
+                },
+                {
+                  "name": "ओमप्रकाश",
+                  "role": ""
+                },
+                {
+                  "name": "के०सी० मिश्रा",
+                  "role": ""
+                },
+                {
+                  "name": "करूणेश प्रताप सिंह",
+                  "role": ""
+                },
+                {
+                  "name": "पवन कुमार श्रीवास्तव",
+                  "role": ""
+                }
+              ],
+              "namedList": true
+            },
+            {
+              "id": "grp-mandal-mantri",
+              "title": "मंडल मंत्री",
+              "en": "Divisional Secretaries",
+              "count": 18,
+              "members": [
+                {
+                  "name": "गिरीशचन्द सिंह",
+                  "role": ""
+                },
+                {
+                  "name": "दिलीप कुमार",
+                  "role": ""
+                },
+                {
+                  "name": "अश्वनी कुमार दूबे",
+                  "role": ""
+                },
+                {
+                  "name": "नीरज सिंह",
+                  "role": ""
+                },
+                {
+                  "name": "प्रमोद कुमार सिंह",
+                  "role": ""
+                },
+                {
+                  "name": "रजमे हसन",
+                  "role": ""
+                },
+                {
+                  "name": "विजय कुमार",
+                  "role": ""
+                },
+                {
+                  "name": "विजय सरन दुबे",
+                  "role": ""
+                },
+                {
+                  "name": "जनक राम",
+                  "role": ""
+                },
+                {
+                  "name": "अनुराग सारस्वत",
+                  "role": ""
+                },
+                {
+                  "name": "राजेन्द्र सिंह",
+                  "role": ""
+                },
+                {
+                  "name": "महताब अली",
+                  "role": ""
+                },
+                {
+                  "name": "वीरेश पाठक",
+                  "role": ""
+                },
+                {
+                  "name": "रामप्रकाश",
+                  "role": ""
+                },
+                {
+                  "name": "नवल कुमार सक्सैना",
+                  "role": ""
+                },
+                {
+                  "name": "मन्शा राम पाण्डेय",
+                  "role": ""
+                },
+                {
+                  "name": "राजकुमार दुबे",
+                  "role": ""
+                },
+                {
+                  "name": "कमर अब्बास जैदी",
+                  "role": ""
+                }
+              ],
+              "namedList": true
+            },
+            {
+              "id": "grp-karyakarini",
+              "title": "प्रान्तीय कार्यकारिणी सदस्य",
+              "en": "State Executive Members",
+              "count": 12,
+              "members": [
+                {
+                  "name": "दीप कुमार श्रीवास्तव",
+                  "role": ""
+                },
+                {
+                  "name": "सौरभ गुप्ता",
+                  "role": ""
+                },
+                {
+                  "name": "संजय कुमार भारती",
+                  "role": ""
+                },
+                {
+                  "name": "काजी अनवार हुसैन",
+                  "role": ""
+                },
+                {
+                  "name": "ह्रदयेश गुप्ता",
+                  "role": ""
+                },
+                {
+                  "name": "राज कुमार",
+                  "role": ""
+                },
+                {
+                  "name": "पंकज श्रीवास्तव",
+                  "role": ""
+                },
+                {
+                  "name": "प्रवीण राय",
+                  "role": ""
+                },
+                {
+                  "name": "नन्द किशोर",
+                  "role": ""
+                },
+                {
+                  "name": "सुशील कुमार",
+                  "role": ""
+                },
+                {
+                  "name": "धर्म सिंह",
+                  "role": ""
+                },
+                {
+                  "name": "अजय वर्मा",
+                  "role": ""
+                }
+              ],
+              "namedList": true
+            }
+          ],
+          "source": "स्रोत : संघ का आधिकारिक पत्रशीर्ष, दिनांक 25.07.2026",
+          "emptyTitle": "",
+          "emptyText": ""
         }
-      ],
-      "groups": [
-        {
-          "id": "grp-prantiya",
-          "title": "प्रान्तीय पदाधिकारी",
-          "en": "State Office Bearers",
-          "count": 10,
-          "members": [
-            {
-              "name": "केन्द्रपाल सिंह",
-              "role": "प्रान्तीय वरिष्ठ उपाध्यक्ष"
-            },
-            {
-              "name": "जगदीश कुमार निगम",
-              "role": "प्रान्तीय कनिष्ठ उपाध्यक्ष प्रथम"
-            },
-            {
-              "name": "अशोक कुमार मिश्र",
-              "role": "प्रान्तीय कनिष्ठ उपाध्यक्ष द्वितीय"
-            },
-            {
-              "name": "राजीव श्रीवास्तव",
-              "role": "प्रान्तीय कनिष्ठ उपाध्यक्ष तृतीय"
-            },
-            {
-              "name": "शैलेन्द्र पटेल",
-              "role": "प्रान्तीय संगठन मंत्री प्रथम"
-            },
-            {
-              "name": "मुकेश कुमार",
-              "role": "प्रान्तीय संगठन मंत्री द्वितीय"
-            },
-            {
-              "name": "संजय कुमार शर्मा",
-              "role": "प्रान्तीय संगठन मंत्री तृतीय"
-            },
-            {
-              "name": "ओमप्रकाश पाण्डेय",
-              "role": "प्रान्तीय कोषाध्यक्ष"
-            },
-            {
-              "name": "विनय कुमार सिंह",
-              "role": "प्रान्तीय सम्प्रेक्षक"
-            },
-            {
-              "name": "खजान सिंह",
-              "role": "प्रान्तीय सांस्कृतिक एवं क्रीडा मंत्री"
-            }
-          ],
-          "namedList": false
-        },
-        {
-          "id": "grp-manonit",
-          "title": "मनोनीत प्रान्तीय पदाधिकारी",
-          "en": "Nominated State Office Bearers",
-          "count": 5,
-          "members": [
-            {
-              "name": "नरेन्द्र सिंह",
-              "role": "प्रान्तीय मुख्य सचेतक"
-            },
-            {
-              "name": "श्रीमती नीरू सिंह",
-              "role": "प्रान्तीय प्रवक्ता"
-            },
-            {
-              "name": "गोपीकृष्ण",
-              "role": "प्रान्तीय कार्यालय सचिव"
-            },
-            {
-              "name": "शशिभूषण तिवारी",
-              "role": "प्रान्तीय मीडिया प्रभारी"
-            },
-            {
-              "name": "दुलीचन्द शर्मा",
-              "role": "प्रान्तीय प्रचारक"
-            }
-          ],
-          "namedList": false
-        },
-        {
-          "id": "grp-varishth",
-          "title": "वरिष्ठ प्रतिनिधि",
-          "en": "Senior Representatives",
-          "count": 5,
-          "members": [
-            {
-              "name": "हरीश चौहान",
-              "role": ""
-            },
-            {
-              "name": "पवन कुमार श्रीवास्तव",
-              "role": ""
-            },
-            {
-              "name": "देवेन्द्र प्रताप सिंह",
-              "role": ""
-            },
-            {
-              "name": "सोहन सिंह",
-              "role": ""
-            },
-            {
-              "name": "विमल सक्सैना",
-              "role": ""
-            }
-          ],
-          "namedList": true
-        },
-        {
-          "id": "grp-zonal-adhyaksh",
-          "title": "जोनल अध्यक्ष",
-          "en": "Zonal Presidents",
-          "count": 6,
-          "members": [
-            {
-              "name": "बृजेश श्रीवास्तव",
-              "role": ""
-            },
-            {
-              "name": "सुनील कुमार सिंह",
-              "role": ""
-            },
-            {
-              "name": "धर्मेन्द्र सिंह",
-              "role": ""
-            },
-            {
-              "name": "राजेश कुमार वर्मा",
-              "role": ""
-            },
-            {
-              "name": "प्रभाकर शर्मा",
-              "role": ""
-            },
-            {
-              "name": "आलोक मिश्रा",
-              "role": ""
-            }
-          ],
-          "namedList": true
-        },
-        {
-          "id": "grp-zonal-mantri",
-          "title": "जोनल मंत्री",
-          "en": "Zonal Secretaries",
-          "count": 6,
-          "members": [
-            {
-              "name": "प्रेम सागर चौधरी",
-              "role": ""
-            },
-            {
-              "name": "दिलीप कुमार श्रीवास्तव",
-              "role": ""
-            },
-            {
-              "name": "मुन्ना बाबू",
-              "role": ""
-            },
-            {
-              "name": "नावेद सिद्दीकी",
-              "role": ""
-            },
-            {
-              "name": "मुकेश सक्सैना",
-              "role": ""
-            },
-            {
-              "name": "कौशल कुमार यादव",
-              "role": ""
-            }
-          ],
-          "namedList": true
-        },
-        {
-          "id": "grp-mandal-adhyaksh",
-          "title": "मंडल अध्यक्ष",
-          "en": "Divisional Presidents",
-          "count": 18,
-          "members": [
-            {
-              "name": "ब्रज बिहारी सिंह",
-              "role": ""
-            },
-            {
-              "name": "आशीष कुमार",
-              "role": ""
-            },
-            {
-              "name": "मनोज कुमार",
-              "role": ""
-            },
-            {
-              "name": "श्रवण कुमार",
-              "role": ""
-            },
-            {
-              "name": "रामलाल",
-              "role": ""
-            },
-            {
-              "name": "विनोद कुमार द्विवेदी",
-              "role": ""
-            },
-            {
-              "name": "प्रमोद कुमार सोनकर",
-              "role": ""
-            },
-            {
-              "name": "रामाश्रय त्रिपाठी",
-              "role": ""
-            },
-            {
-              "name": "धर्मेन्द्र कुमार शर्मा",
-              "role": ""
-            },
-            {
-              "name": "अनिल मौर्य",
-              "role": ""
-            },
-            {
-              "name": "सतीश कुमार",
-              "role": ""
-            },
-            {
-              "name": "अरविन्द कुमार",
-              "role": ""
-            },
-            {
-              "name": "नरेन्द्र कुमार भारद्वाज",
-              "role": ""
-            },
-            {
-              "name": "जयवीर सिंह",
-              "role": ""
-            },
-            {
-              "name": "ओमप्रकाश",
-              "role": ""
-            },
-            {
-              "name": "के०सी० मिश्रा",
-              "role": ""
-            },
-            {
-              "name": "करूणेश प्रताप सिंह",
-              "role": ""
-            },
-            {
-              "name": "पवन कुमार श्रीवास्तव",
-              "role": ""
-            }
-          ],
-          "namedList": true
-        },
-        {
-          "id": "grp-mandal-mantri",
-          "title": "मंडल मंत्री",
-          "en": "Divisional Secretaries",
-          "count": 18,
-          "members": [
-            {
-              "name": "गिरीशचन्द सिंह",
-              "role": ""
-            },
-            {
-              "name": "दिलीप कुमार",
-              "role": ""
-            },
-            {
-              "name": "अश्वनी कुमार दूबे",
-              "role": ""
-            },
-            {
-              "name": "नीरज सिंह",
-              "role": ""
-            },
-            {
-              "name": "प्रमोद कुमार सिंह",
-              "role": ""
-            },
-            {
-              "name": "रजमे हसन",
-              "role": ""
-            },
-            {
-              "name": "विजय कुमार",
-              "role": ""
-            },
-            {
-              "name": "विजय सरन दुबे",
-              "role": ""
-            },
-            {
-              "name": "जनक राम",
-              "role": ""
-            },
-            {
-              "name": "अनुराग सारस्वत",
-              "role": ""
-            },
-            {
-              "name": "राजेन्द्र सिंह",
-              "role": ""
-            },
-            {
-              "name": "महताब अली",
-              "role": ""
-            },
-            {
-              "name": "वीरेश पाठक",
-              "role": ""
-            },
-            {
-              "name": "रामप्रकाश",
-              "role": ""
-            },
-            {
-              "name": "नवल कुमार सक्सैना",
-              "role": ""
-            },
-            {
-              "name": "मन्शा राम पाण्डेय",
-              "role": ""
-            },
-            {
-              "name": "राजकुमार दुबे",
-              "role": ""
-            },
-            {
-              "name": "कमर अब्बास जैदी",
-              "role": ""
-            }
-          ],
-          "namedList": true
-        },
-        {
-          "id": "grp-karyakarini",
-          "title": "प्रान्तीय कार्यकारिणी सदस्य",
-          "en": "State Executive Members",
-          "count": 12,
-          "members": [
-            {
-              "name": "दीप कुमार श्रीवास्तव",
-              "role": ""
-            },
-            {
-              "name": "सौरभ गुप्ता",
-              "role": ""
-            },
-            {
-              "name": "संजय कुमार भारती",
-              "role": ""
-            },
-            {
-              "name": "काजी अनवार हुसैन",
-              "role": ""
-            },
-            {
-              "name": "ह्रदयेश गुप्ता",
-              "role": ""
-            },
-            {
-              "name": "राज कुमार",
-              "role": ""
-            },
-            {
-              "name": "पंकज श्रीवास्तव",
-              "role": ""
-            },
-            {
-              "name": "प्रवीण राय",
-              "role": ""
-            },
-            {
-              "name": "नन्द किशोर",
-              "role": ""
-            },
-            {
-              "name": "सुशील कुमार",
-              "role": ""
-            },
-            {
-              "name": "धर्म सिंह",
-              "role": ""
-            },
-            {
-              "name": "अजय वर्मा",
-              "role": ""
-            }
-          ],
-          "namedList": true
-        }
-      ],
-      "source": "स्रोत : संघ का आधिकारिक पत्रशीर्ष, दिनांक 25.07.2026",
-      "categoryLabel": "श्रेणी :"
+      ]
     },
     "constitution": {
       "heading": {
@@ -1520,438 +1539,457 @@
           "href": "/office-bearers/"
         }
       },
-      "leaders": [
+      "categoryLabel": "Category:",
+      "defaultYear": "2026",
+      "yearTabsLabel": "Office bearer year",
+      "years": [
         {
-          "name": "Sushil Kumar Tripathi",
-          "role": "State President",
-          "base": "Headquarters: Sultanpur",
-          "phones": [
-            {
-              "label": "9415382132",
-              "href": "tel:+919415382132"
-            },
-            {
-              "label": "8953631184",
-              "href": "tel:+918953631184"
-            }
-          ],
-          "email": "sushiltripathi.up@gmail.com",
-          "initial": "S"
+          "year": "2022",
+          "label": "Office Bearers - 2022",
+          "leaders": [],
+          "groups": [],
+          "source": "",
+          "emptyTitle": "2022 records will be added soon",
+          "emptyText": "The verified list of office bearers for 2022 will be published here when it is available."
         },
         {
-          "name": "Ajeet Upadhyay",
-          "role": "State General Secretary",
-          "base": "Headquarters: Firozabad",
-          "phones": [
+          "year": "2026",
+          "label": "Office Bearers - 2026",
+          "leaders": [
             {
-              "label": "9411207799",
-              "href": "tel:+919411207799"
+              "name": "Sushil Kumar Tripathi",
+              "role": "State President",
+              "base": "Headquarters: Sultanpur",
+              "phones": [
+                {
+                  "label": "9415382132",
+                  "href": "tel:+919415382132"
+                },
+                {
+                  "label": "8953631184",
+                  "href": "tel:+918953631184"
+                }
+              ],
+              "email": "sushiltripathi.up@gmail.com",
+              "initial": "S"
             },
             {
-              "label": "9411441188",
-              "href": "tel:+919411441188"
+              "name": "Ajeet Upadhyay",
+              "role": "State General Secretary",
+              "base": "Headquarters: Firozabad",
+              "phones": [
+                {
+                  "label": "9411207799",
+                  "href": "tel:+919411207799"
+                },
+                {
+                  "label": "9411441188",
+                  "href": "tel:+919411441188"
+                }
+              ],
+              "email": "ajeetfir@gmail.com",
+              "initial": "A"
             }
           ],
-          "email": "ajeetfir@gmail.com",
-          "initial": "A"
+          "groups": [
+            {
+              "id": "grp-prantiya",
+              "title": "State Office Bearers",
+              "en": "State Office Bearers",
+              "count": 10,
+              "members": [
+                {
+                  "name": "Kendrapal Singh",
+                  "role": "State Senior Vice President"
+                },
+                {
+                  "name": "Jagdish Kumar Nigam",
+                  "role": "State Junior Vice President I"
+                },
+                {
+                  "name": "Ashok Kumar Mishra",
+                  "role": "State Junior Vice President II"
+                },
+                {
+                  "name": "Rajiv Srivastava",
+                  "role": "State Junior Vice President III"
+                },
+                {
+                  "name": "Shailendra Patel",
+                  "role": "State Organizing Secretary I"
+                },
+                {
+                  "name": "Mukesh Kumar",
+                  "role": "State Organizing Secretary II"
+                },
+                {
+                  "name": "Sanjay Kumar Sharma",
+                  "role": "State Organizing Secretary III"
+                },
+                {
+                  "name": "Omprakash Pandey",
+                  "role": "State Treasurer"
+                },
+                {
+                  "name": "Vinay Kumar Singh",
+                  "role": "State Auditor"
+                },
+                {
+                  "name": "Khajan Singh",
+                  "role": "State Cultural and Sports Secretary"
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-manonit",
+              "title": "Nominated State Office Bearers",
+              "en": "Nominated State Office Bearers",
+              "count": 5,
+              "members": [
+                {
+                  "name": "Narendra Singh",
+                  "role": "State Chief Whip"
+                },
+                {
+                  "name": "Mrs. Neeru Singh",
+                  "role": "State Spokesperson"
+                },
+                {
+                  "name": "Gopikrishna",
+                  "role": "State Office Secretary"
+                },
+                {
+                  "name": "Shashibhushan Tiwari",
+                  "role": "State Media Coordinator"
+                },
+                {
+                  "name": "Dulichand Sharma",
+                  "role": "State Publicity Officer"
+                }
+              ],
+              "namedList": false
+            },
+            {
+              "id": "grp-varishth",
+              "title": "Senior Representatives",
+              "en": "Senior Representatives",
+              "count": 5,
+              "members": [
+                {
+                  "name": "Harish Chauhan",
+                  "role": ""
+                },
+                {
+                  "name": "Pawan Kumar Srivastava",
+                  "role": ""
+                },
+                {
+                  "name": "Devendra Pratap Singh",
+                  "role": ""
+                },
+                {
+                  "name": "Sohan Singh",
+                  "role": ""
+                },
+                {
+                  "name": "Vimal Saxena",
+                  "role": ""
+                }
+              ],
+              "namedList": true
+            },
+            {
+              "id": "grp-zonal-adhyaksh",
+              "title": "Zonal Presidents",
+              "en": "Zonal Presidents",
+              "count": 6,
+              "members": [
+                {
+                  "name": "Brijesh Srivastava",
+                  "role": ""
+                },
+                {
+                  "name": "Sunil Kumar Singh",
+                  "role": ""
+                },
+                {
+                  "name": "Dharmendra Singh",
+                  "role": ""
+                },
+                {
+                  "name": "Rajesh Kumar Verma",
+                  "role": ""
+                },
+                {
+                  "name": "Prabhakar Sharma",
+                  "role": ""
+                },
+                {
+                  "name": "Alok Mishra",
+                  "role": ""
+                }
+              ],
+              "namedList": true
+            },
+            {
+              "id": "grp-zonal-mantri",
+              "title": "Zonal Secretaries",
+              "en": "Zonal Secretaries",
+              "count": 6,
+              "members": [
+                {
+                  "name": "Prem Sagar Chaudhary",
+                  "role": ""
+                },
+                {
+                  "name": "Dilip Kumar Srivastava",
+                  "role": ""
+                },
+                {
+                  "name": "Munna Babu",
+                  "role": ""
+                },
+                {
+                  "name": "Naved Siddiqui",
+                  "role": ""
+                },
+                {
+                  "name": "Mukesh Saxena",
+                  "role": ""
+                },
+                {
+                  "name": "Kaushal Kumar Yadav",
+                  "role": ""
+                }
+              ],
+              "namedList": true
+            },
+            {
+              "id": "grp-mandal-adhyaksh",
+              "title": "Divisional Presidents",
+              "en": "Divisional Presidents",
+              "count": 18,
+              "members": [
+                {
+                  "name": "Braj Bihari Singh",
+                  "role": ""
+                },
+                {
+                  "name": "Ashish Kumar",
+                  "role": ""
+                },
+                {
+                  "name": "Manoj Kumar",
+                  "role": ""
+                },
+                {
+                  "name": "Shravan Kumar",
+                  "role": ""
+                },
+                {
+                  "name": "Ramlal",
+                  "role": ""
+                },
+                {
+                  "name": "Vinod Kumar Dwivedi",
+                  "role": ""
+                },
+                {
+                  "name": "Pramod Kumar Sonkar",
+                  "role": ""
+                },
+                {
+                  "name": "Ramashray Tripathi",
+                  "role": ""
+                },
+                {
+                  "name": "Dharmendra Kumar Sharma",
+                  "role": ""
+                },
+                {
+                  "name": "Anil Maurya",
+                  "role": ""
+                },
+                {
+                  "name": "Satish Kumar",
+                  "role": ""
+                },
+                {
+                  "name": "Arvind Kumar",
+                  "role": ""
+                },
+                {
+                  "name": "Narendra Kumar Bhardwaj",
+                  "role": ""
+                },
+                {
+                  "name": "Jaiveer Singh",
+                  "role": ""
+                },
+                {
+                  "name": "Omprakash",
+                  "role": ""
+                },
+                {
+                  "name": "K. C. Mishra",
+                  "role": ""
+                },
+                {
+                  "name": "Karunesh Pratap Singh",
+                  "role": ""
+                },
+                {
+                  "name": "Pawan Kumar Srivastava",
+                  "role": ""
+                }
+              ],
+              "namedList": true
+            },
+            {
+              "id": "grp-mandal-mantri",
+              "title": "Divisional Secretaries",
+              "en": "Divisional Secretaries",
+              "count": 18,
+              "members": [
+                {
+                  "name": "Girishchand Singh",
+                  "role": ""
+                },
+                {
+                  "name": "Dilip Kumar",
+                  "role": ""
+                },
+                {
+                  "name": "Ashwani Kumar Dubey",
+                  "role": ""
+                },
+                {
+                  "name": "Neeraj Singh",
+                  "role": ""
+                },
+                {
+                  "name": "Pramod Kumar Singh",
+                  "role": ""
+                },
+                {
+                  "name": "Rajme Hasan",
+                  "role": ""
+                },
+                {
+                  "name": "Vijay Kumar",
+                  "role": ""
+                },
+                {
+                  "name": "Vijay Saran Dubey",
+                  "role": ""
+                },
+                {
+                  "name": "Janak Ram",
+                  "role": ""
+                },
+                {
+                  "name": "Anurag Saraswat",
+                  "role": ""
+                },
+                {
+                  "name": "Rajendra Singh",
+                  "role": ""
+                },
+                {
+                  "name": "Mahtab Ali",
+                  "role": ""
+                },
+                {
+                  "name": "Veeresh Pathak",
+                  "role": ""
+                },
+                {
+                  "name": "Ramprakash",
+                  "role": ""
+                },
+                {
+                  "name": "Naval Kumar Saxena",
+                  "role": ""
+                },
+                {
+                  "name": "Mansha Ram Pandey",
+                  "role": ""
+                },
+                {
+                  "name": "Rajkumar Dubey",
+                  "role": ""
+                },
+                {
+                  "name": "Qamar Abbas Zaidi",
+                  "role": ""
+                }
+              ],
+              "namedList": true
+            },
+            {
+              "id": "grp-karyakarini",
+              "title": "State Executive Members",
+              "en": "State Executive Members",
+              "count": 12,
+              "members": [
+                {
+                  "name": "Deep Kumar Srivastava",
+                  "role": ""
+                },
+                {
+                  "name": "Saurabh Gupta",
+                  "role": ""
+                },
+                {
+                  "name": "Sanjay Kumar Bharti",
+                  "role": ""
+                },
+                {
+                  "name": "Qazi Anwar Hussain",
+                  "role": ""
+                },
+                {
+                  "name": "Hridayesh Gupta",
+                  "role": ""
+                },
+                {
+                  "name": "Raj Kumar",
+                  "role": ""
+                },
+                {
+                  "name": "Pankaj Srivastava",
+                  "role": ""
+                },
+                {
+                  "name": "Praveen Rai",
+                  "role": ""
+                },
+                {
+                  "name": "Nand Kishore",
+                  "role": ""
+                },
+                {
+                  "name": "Sushil Kumar",
+                  "role": ""
+                },
+                {
+                  "name": "Dharm Singh",
+                  "role": ""
+                },
+                {
+                  "name": "Ajay Verma",
+                  "role": ""
+                }
+              ],
+              "namedList": true
+            }
+          ],
+          "source": "Source: Sangh’s official letterhead, dated 25.07.2026",
+          "emptyTitle": "",
+          "emptyText": ""
         }
-      ],
-      "groups": [
-        {
-          "id": "grp-prantiya",
-          "title": "State Office Bearers",
-          "en": "State Office Bearers",
-          "count": 10,
-          "members": [
-            {
-              "name": "Kendrapal Singh",
-              "role": "State Senior Vice President"
-            },
-            {
-              "name": "Jagdish Kumar Nigam",
-              "role": "State Junior Vice President I"
-            },
-            {
-              "name": "Ashok Kumar Mishra",
-              "role": "State Junior Vice President II"
-            },
-            {
-              "name": "Rajiv Srivastava",
-              "role": "State Junior Vice President III"
-            },
-            {
-              "name": "Shailendra Patel",
-              "role": "State Organizing Secretary I"
-            },
-            {
-              "name": "Mukesh Kumar",
-              "role": "State Organizing Secretary II"
-            },
-            {
-              "name": "Sanjay Kumar Sharma",
-              "role": "State Organizing Secretary III"
-            },
-            {
-              "name": "Omprakash Pandey",
-              "role": "State Treasurer"
-            },
-            {
-              "name": "Vinay Kumar Singh",
-              "role": "State Auditor"
-            },
-            {
-              "name": "Khajan Singh",
-              "role": "State Cultural and Sports Secretary"
-            }
-          ],
-          "namedList": false
-        },
-        {
-          "id": "grp-manonit",
-          "title": "Nominated State Office Bearers",
-          "en": "Nominated State Office Bearers",
-          "count": 5,
-          "members": [
-            {
-              "name": "Narendra Singh",
-              "role": "State Chief Whip"
-            },
-            {
-              "name": "Mrs. Neeru Singh",
-              "role": "State Spokesperson"
-            },
-            {
-              "name": "Gopikrishna",
-              "role": "State Office Secretary"
-            },
-            {
-              "name": "Shashibhushan Tiwari",
-              "role": "State Media Coordinator"
-            },
-            {
-              "name": "Dulichand Sharma",
-              "role": "State Publicity Officer"
-            }
-          ],
-          "namedList": false
-        },
-        {
-          "id": "grp-varishth",
-          "title": "Senior Representatives",
-          "en": "Senior Representatives",
-          "count": 5,
-          "members": [
-            {
-              "name": "Harish Chauhan",
-              "role": ""
-            },
-            {
-              "name": "Pawan Kumar Srivastava",
-              "role": ""
-            },
-            {
-              "name": "Devendra Pratap Singh",
-              "role": ""
-            },
-            {
-              "name": "Sohan Singh",
-              "role": ""
-            },
-            {
-              "name": "Vimal Saxena",
-              "role": ""
-            }
-          ],
-          "namedList": true
-        },
-        {
-          "id": "grp-zonal-adhyaksh",
-          "title": "Zonal Presidents",
-          "en": "Zonal Presidents",
-          "count": 6,
-          "members": [
-            {
-              "name": "Brijesh Srivastava",
-              "role": ""
-            },
-            {
-              "name": "Sunil Kumar Singh",
-              "role": ""
-            },
-            {
-              "name": "Dharmendra Singh",
-              "role": ""
-            },
-            {
-              "name": "Rajesh Kumar Verma",
-              "role": ""
-            },
-            {
-              "name": "Prabhakar Sharma",
-              "role": ""
-            },
-            {
-              "name": "Alok Mishra",
-              "role": ""
-            }
-          ],
-          "namedList": true
-        },
-        {
-          "id": "grp-zonal-mantri",
-          "title": "Zonal Secretaries",
-          "en": "Zonal Secretaries",
-          "count": 6,
-          "members": [
-            {
-              "name": "Prem Sagar Chaudhary",
-              "role": ""
-            },
-            {
-              "name": "Dilip Kumar Srivastava",
-              "role": ""
-            },
-            {
-              "name": "Munna Babu",
-              "role": ""
-            },
-            {
-              "name": "Naved Siddiqui",
-              "role": ""
-            },
-            {
-              "name": "Mukesh Saxena",
-              "role": ""
-            },
-            {
-              "name": "Kaushal Kumar Yadav",
-              "role": ""
-            }
-          ],
-          "namedList": true
-        },
-        {
-          "id": "grp-mandal-adhyaksh",
-          "title": "Divisional Presidents",
-          "en": "Divisional Presidents",
-          "count": 18,
-          "members": [
-            {
-              "name": "Braj Bihari Singh",
-              "role": ""
-            },
-            {
-              "name": "Ashish Kumar",
-              "role": ""
-            },
-            {
-              "name": "Manoj Kumar",
-              "role": ""
-            },
-            {
-              "name": "Shravan Kumar",
-              "role": ""
-            },
-            {
-              "name": "Ramlal",
-              "role": ""
-            },
-            {
-              "name": "Vinod Kumar Dwivedi",
-              "role": ""
-            },
-            {
-              "name": "Pramod Kumar Sonkar",
-              "role": ""
-            },
-            {
-              "name": "Ramashray Tripathi",
-              "role": ""
-            },
-            {
-              "name": "Dharmendra Kumar Sharma",
-              "role": ""
-            },
-            {
-              "name": "Anil Maurya",
-              "role": ""
-            },
-            {
-              "name": "Satish Kumar",
-              "role": ""
-            },
-            {
-              "name": "Arvind Kumar",
-              "role": ""
-            },
-            {
-              "name": "Narendra Kumar Bhardwaj",
-              "role": ""
-            },
-            {
-              "name": "Jaiveer Singh",
-              "role": ""
-            },
-            {
-              "name": "Omprakash",
-              "role": ""
-            },
-            {
-              "name": "K. C. Mishra",
-              "role": ""
-            },
-            {
-              "name": "Karunesh Pratap Singh",
-              "role": ""
-            },
-            {
-              "name": "Pawan Kumar Srivastava",
-              "role": ""
-            }
-          ],
-          "namedList": true
-        },
-        {
-          "id": "grp-mandal-mantri",
-          "title": "Divisional Secretaries",
-          "en": "Divisional Secretaries",
-          "count": 18,
-          "members": [
-            {
-              "name": "Girishchand Singh",
-              "role": ""
-            },
-            {
-              "name": "Dilip Kumar",
-              "role": ""
-            },
-            {
-              "name": "Ashwani Kumar Dubey",
-              "role": ""
-            },
-            {
-              "name": "Neeraj Singh",
-              "role": ""
-            },
-            {
-              "name": "Pramod Kumar Singh",
-              "role": ""
-            },
-            {
-              "name": "Rajme Hasan",
-              "role": ""
-            },
-            {
-              "name": "Vijay Kumar",
-              "role": ""
-            },
-            {
-              "name": "Vijay Saran Dubey",
-              "role": ""
-            },
-            {
-              "name": "Janak Ram",
-              "role": ""
-            },
-            {
-              "name": "Anurag Saraswat",
-              "role": ""
-            },
-            {
-              "name": "Rajendra Singh",
-              "role": ""
-            },
-            {
-              "name": "Mahtab Ali",
-              "role": ""
-            },
-            {
-              "name": "Veeresh Pathak",
-              "role": ""
-            },
-            {
-              "name": "Ramprakash",
-              "role": ""
-            },
-            {
-              "name": "Naval Kumar Saxena",
-              "role": ""
-            },
-            {
-              "name": "Mansha Ram Pandey",
-              "role": ""
-            },
-            {
-              "name": "Rajkumar Dubey",
-              "role": ""
-            },
-            {
-              "name": "Qamar Abbas Zaidi",
-              "role": ""
-            }
-          ],
-          "namedList": true
-        },
-        {
-          "id": "grp-karyakarini",
-          "title": "State Executive Members",
-          "en": "State Executive Members",
-          "count": 12,
-          "members": [
-            {
-              "name": "Deep Kumar Srivastava",
-              "role": ""
-            },
-            {
-              "name": "Saurabh Gupta",
-              "role": ""
-            },
-            {
-              "name": "Sanjay Kumar Bharti",
-              "role": ""
-            },
-            {
-              "name": "Qazi Anwar Hussain",
-              "role": ""
-            },
-            {
-              "name": "Hridayesh Gupta",
-              "role": ""
-            },
-            {
-              "name": "Raj Kumar",
-              "role": ""
-            },
-            {
-              "name": "Pankaj Srivastava",
-              "role": ""
-            },
-            {
-              "name": "Praveen Rai",
-              "role": ""
-            },
-            {
-              "name": "Nand Kishore",
-              "role": ""
-            },
-            {
-              "name": "Sushil Kumar",
-              "role": ""
-            },
-            {
-              "name": "Dharm Singh",
-              "role": ""
-            },
-            {
-              "name": "Ajay Verma",
-              "role": ""
-            }
-          ],
-          "namedList": true
-        }
-      ],
-      "source": "Source: Sangh’s official letterhead, dated 25.07.2026",
-      "categoryLabel": "Category:"
+      ]
     },
     "constitution": {
       "heading": {
