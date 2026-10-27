@@ -17,7 +17,7 @@
       "headquarters": "मुख्यालय : कलेक्ट्रेट–फिरोजाबाद (उ.प्र.)",
       "motto": ["संगठन ही शक्ति है", "साथ ही प्रगति है"],
       "logo": {
-        "src": "/assets/logo.BEw8hHPk_1o4HJl.webp",
+        "src": "/assets/logo.jpeg",
         "alt": "",
         "width": 96,
         "height": 96
@@ -269,7 +269,7 @@
                 }
               ],
               "email": "sushiltripathi.up@gmail.com",
-              "initial": "स"
+              "image": "/assets/sushil.jpeg"
             },
             {
               "name": "अजीत उपाध्याय",
@@ -286,7 +286,7 @@
                 }
               ],
               "email": "ajeetfir@gmail.com",
-              "initial": "अ"
+              "image": "/assets/ajeet-upadhaya.D7HRX1dk_Z1wd9GG.webp"
             }
           ],
           "groups": [
@@ -705,8 +705,8 @@
                   "href": "tel:+919415417582"
                 }
               ],
-              "email": "",
-              "initial": "ज",
+              "email": "nigamjagdish1977@gmail.com",
+              "image": "/assets/jagdish.jpeg",
               "positionNumber": 1
             },
             {
@@ -1514,7 +1514,7 @@
           "organization": "कलेक्ट्रेट कर्मचारी संघ, उ.प्र.",
           "badge": "PDF",
           "logo": {
-            "src": "/assets/logo.BEw8hHPk_Z13QuFn.webp",
+            "src": "/assets/logo.jpeg",
             "alt": "",
             "width": 56,
             "height": 56
@@ -1535,7 +1535,7 @@
           "organization": "कलेक्ट्रेट कर्मचारी संघ, उ.प्र.",
           "badge": "PDF",
           "logo": {
-            "src": "/assets/logo.BEw8hHPk_Z13QuFn.webp",
+            "src": "/assets/logo.jpeg",
             "alt": "",
             "width": 56,
             "height": 56
@@ -1917,7 +1917,8 @@
             }
           ],
           "email": "sushiltripathi.up@gmail.com",
-          "initial": ""
+          "initial": "",
+          "image": "/assets/sushil.jpeg"
         },
         {
           "name": "अजीत उपाध्याय",
@@ -1934,7 +1935,8 @@
             }
           ],
           "email": "ajeetfir@gmail.com",
-          "initial": ""
+          "initial": "",
+          "image": "/assets/ajeet-upadhaya.D7HRX1dk_Z1wd9GG.webp"
         }
       ],
       "office": {
@@ -1971,7 +1973,7 @@
     },
     "footer": {
       "logo": {
-        "src": "/assets/logo.BEw8hHPk_5gyCx.webp",
+        "src": "/assets/logo.jpeg",
         "alt": "",
         "width": 72,
         "height": 72
@@ -2105,7 +2107,7 @@
       "headquarters": "Headquarters: Collectorate–Firozabad (U.P.)",
       "motto": ["Organization is strength", "Together, we progress"],
       "logo": {
-        "src": "/assets/logo.BEw8hHPk_1o4HJl.webp",
+        "src": "/assets/logo.jpeg",
         "alt": "",
         "width": 96,
         "height": 96
@@ -2357,7 +2359,7 @@
                 }
               ],
               "email": "sushiltripathi.up@gmail.com",
-              "initial": "S"
+              "image": "/assets/sushil.jpeg"
             },
             {
               "name": "Ajeet Upadhyay",
@@ -2374,7 +2376,7 @@
                 }
               ],
               "email": "ajeetfir@gmail.com",
-              "initial": "A"
+              "image": "/assets/ajeet-upadhaya.D7HRX1dk_Z1wd9GG.webp"
             }
           ],
           "groups": [
@@ -2793,8 +2795,8 @@
                   "href": "tel:+919415417582"
                 }
               ],
-              "email": "",
-              "initial": "J",
+              "email": "nigamjagdish1977@gmail.com",
+              "image": "/assets/jagdish.jpeg",
               "positionNumber": 1
             },
             {
@@ -3602,7 +3604,7 @@
           "organization": "Collectorate Karmachari Sangh, U.P.",
           "badge": "PDF",
           "logo": {
-            "src": "/assets/logo.BEw8hHPk_Z13QuFn.webp",
+            "src": "/assets/logo.jpeg",
             "alt": "",
             "width": 56,
             "height": 56
@@ -3623,7 +3625,7 @@
           "organization": "Collectorate Karmachari Sangh, U.P.",
           "badge": "PDF",
           "logo": {
-            "src": "/assets/logo.BEw8hHPk_Z13QuFn.webp",
+            "src": "/assets/logo.jpeg",
             "alt": "",
             "width": 56,
             "height": 56
@@ -4005,7 +4007,8 @@
             }
           ],
           "email": "sushiltripathi.up@gmail.com",
-          "initial": ""
+          "initial": "",
+          "image": "/assets/sushil.jpeg"
         },
         {
           "name": "Ajeet Upadhyay",
@@ -4022,7 +4025,8 @@
             }
           ],
           "email": "ajeetfir@gmail.com",
-          "initial": ""
+          "initial": "",
+          "image": "/assets/ajeet-upadhaya.D7HRX1dk_Z1wd9GG.webp"
         }
       ],
       "office": {
@@ -4059,7 +4063,7 @@
     },
     "footer": {
       "logo": {
-        "src": "/assets/logo.BEw8hHPk_5gyCx.webp",
+        "src": "/assets/logo.jpeg",
         "alt": "",
         "width": 72,
         "height": 72

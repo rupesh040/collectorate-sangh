@@ -41,12 +41,26 @@ function OfficeBearersRoster({ roster, full }: OfficeBearersRosterProps) {
             className={`${styles.card} ${styles.cardHover} ${styles.reveal} flex items-start gap-[20px] border-t-4 border-t-navy p-[24px] [@media(width<=420px)]:flex-col [@media(width<=420px)]:gap-[12px]`}
             key={person.positionNumber ?? person.name}
           >
-            <div
-              className="grid size-[72px] flex-none place-items-center rounded-full border-2 border-gold bg-[radial-gradient(circle_at_30%_30%,#fff,#f3e6bf)] font-serif text-[2rem] font-bold text-navy-900 shadow-[inset_0_0_0_4px_#fff]"
-              aria-hidden="true"
-            >
-              {person.initial}
-            </div>
+            {person.image ? (
+              <div className="size-[72px] flex-none overflow-hidden rounded-full border-2 border-gold bg-white p-[3px] shadow-[0_2px_8px_rgba(0,0,0,0.12)]">
+                <img
+                  src={person.image}
+                  alt={person.name}
+                  className="size-full rounded-full object-cover object-top"
+                  width={72}
+                  height={72}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            ) : (
+              <div
+                className="grid size-[72px] flex-none place-items-center rounded-full border-2 border-gold bg-[radial-gradient(circle_at_30%_30%,#fff,#f3e6bf)] font-serif text-[2rem] font-bold text-navy-900 shadow-[inset_0_0_0_4px_#fff]"
+                aria-hidden="true"
+              >
+                {person.initial || person.name.charAt(0)}
+              </div>
+            )}
             <div>
               <p className="m-0 text-[.95rem] font-bold text-red">
                 {person.role}

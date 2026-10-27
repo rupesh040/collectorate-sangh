@@ -57,7 +57,8 @@ export interface ContactPerson {
   base: string;
   phones: LinkItem[];
   email: string;
-  initial: string;
+  initial?: string;
+  image?: string;
   positionNumber?: number;
 }
 
