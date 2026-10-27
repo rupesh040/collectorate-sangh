@@ -14,7 +14,7 @@
       ],
       "brandName": "उत्तर प्रदेशीय मिनिस्ट्रीयल कलेक्ट्रेट कर्मचारी संघ, उ.प्र.",
       "recognition": "(शासनादेश संख्या 1945/एक–ख–80 दिनांक 29 अक्टूबर, 1929 द्वारा मान्यता प्राप्त)",
-      "headquarters": "मुख्यालय : कलेक्ट्रेट–फिरोजाबाद (उ.प्र.)",
+      "headquarters": "मुख्यालय : कलेक्ट्रेट–प्रयागराज (उ.प्र.)",
       "motto": ["संगठन ही शक्ति है", "साथ ही प्रगति है"],
       "logo": {
         "src": "/assets/logo.jpeg",
@@ -94,11 +94,11 @@
       },
       "team": [
         {
-          "name": "शशिभूषण तिवारी",
+          "name": "शशि भूषण तिवारी ",
           "role": "Website Creator",
           "image": {
             "src": "/assets/papu.C0EkKSJo_BQI0O.webp",
-            "alt": "शशिभूषण तिवारी",
+            "alt": "शशि भूषण तिवारी ",
             "width": 1161,
             "height": 1354
           }
@@ -358,7 +358,7 @@
                   "role": "प्रान्तीय कार्यालय सचिव"
                 },
                 {
-                  "name": "शशिभूषण तिवारी",
+                  "name": "शशि भूषण तिवारी ",
                   "role": "प्रान्तीय मीडिया प्रभारी"
                 },
                 {
@@ -719,8 +719,8 @@
                   "href": "tel:+919335420584"
                 }
               ],
-              "email": "",
-              "initial": "म",
+              "email": "mp7585774@gmail.com",
+              "image": "/assets/Mahendra.jpeg",
               "positionNumber": 3
             }
           ],
@@ -1719,7 +1719,7 @@
           "title": "60वाँ प्रान्तीय अधिवेशन / चुनाव",
           "summary": "संघ का एक दिवसीय 60वाँ प्रान्तीय अधिवेशन / चुनाव। इस अवसर पर संघ के संविधान के षष्ठम् संस्करण तथा स्मारिका का विमोचन कार्यक्रम आयोजित किया गया।",
           "date": "12 सितम्बर 2026",
-          "location": "पं० अटल बिहारी वाजपेयी प्रेक्षागृह, लखनऊ",
+          "location": "अटल बिहारी बाजपेई साइंटिफिक कन्वेंशन सेंटर, लखनऊ",
           "placeholderCount": 6,
           "images": [],
           "programme": {
@@ -1903,40 +1903,50 @@
       "intro": "संघ के आधिकारिक पत्रशीर्ष (दिनांक 25.07.2026) के अनुसार।",
       "people": [
         {
-          "name": "सुशील कुमार त्रिपाठी",
+          "name": "जगदीश निगम",
           "role": "प्रान्तीय अध्यक्ष",
-          "base": "मुख्यालय सुल्तानपुर",
+          "base": "जनपद : हमीरपुर",
           "phones": [
             {
-              "label": "9415382132",
-              "href": "tel:+919415382132"
+              "label": "7000337571",
+              "href": "tel:+917000337571"
             },
             {
-              "label": "8953631184",
-              "href": "tel:+918953631184"
+              "label": "9415417582",
+              "href": "tel:+919415417582"
             }
           ],
-          "email": "sushiltripathi.up@gmail.com",
+          "email": "nigamjagdish1977@gmail.com",
           "initial": "",
-          "image": "/assets/sushil.jpeg"
+          "image": "/assets/jagdish.jpeg"
         },
         {
-          "name": "अजीत उपाध्याय",
+          "name": "महेन्द्र पाण्डेय",
           "role": "प्रान्तीय महामंत्री",
-          "base": "मुख्यालय फिरोजाबाद",
+          "base": "जनपद : प्रयागराज",
           "phones": [
             {
-              "label": "9411207799",
-              "href": "tel:+919411207799"
-            },
-            {
-              "label": "9411441188",
-              "href": "tel:+919411441188"
+              "label": "9335420584",
+              "href": "tel:+919335420584"
             }
           ],
-          "email": "ajeetfir@gmail.com",
+          "email": "mp7585774@gmail.com",
           "initial": "",
-          "image": "/assets/ajeet-upadhaya.D7HRX1dk_Z1wd9GG.webp"
+          "image": "/assets/Mahendra.jpeg"
+        },
+        {
+          "name": "शशि भूषण तिवारी ",
+          "role": "वेबसाइट निर्माता",
+          "base": "",
+          "phones": [
+            {
+              "label": "9959750111",
+              "href": "tel:+919959750111"
+            }
+          ],
+          "email": "sbtiwari72@gmail.com",
+          "initial": "",
+          "image": "/assets/papu.C0EkKSJo_BQI0O.webp"
         }
       ],
       "office": {
@@ -1980,7 +1990,7 @@
       },
       "name": "उत्तर प्रदेशीय मिनिस्ट्रीयल कलेक्ट्रेट कर्मचारी संघ, उ.प्र.",
       "recognition": "शासनादेश संख्या 1945/एक–ख–80 दिनांक 29 अक्टूबर, 1929 द्वारा मान्यता प्राप्त",
-      "headquarters": "मुख्यालय : कलेक्ट्रेट–फिरोजाबाद (उ.प्र.)",
+      "headquarters": "मुख्यालय : कलेक्ट्रेट–प्रयागराज (उ.प्र.)",
       "quickLinksTitle": "त्वरित लिंक",
       "quickLinks": [
         {
@@ -2104,7 +2114,7 @@
       ],
       "brandName": "Uttar Pradeshiya Ministerial Collectorate Karmachari Sangh, U.P.",
       "recognition": "(Recognized by Government Order No. 1945/Ek–Kha–80 dated 29 October 1929)",
-      "headquarters": "Headquarters: Collectorate–Firozabad (U.P.)",
+      "headquarters": "Headquarters: Collectorate–Prayagraj (U.P.)",
       "motto": ["Organization is strength", "Together, we progress"],
       "logo": {
         "src": "/assets/logo.jpeg",
@@ -2184,11 +2194,11 @@
       },
       "team": [
         {
-          "name": "Shashibhushan Tiwari",
+          "name": "Shashi Bhushan Tiwari ",
           "role": "Website Creator",
           "image": {
             "src": "/assets/papu.C0EkKSJo_BQI0O.webp",
-            "alt": "Shashibhushan Tiwari",
+            "alt": "Shashi Bhushan Tiwari ",
             "width": 1161,
             "height": 1354
           }
@@ -2448,7 +2458,7 @@
                   "role": "State Office Secretary"
                 },
                 {
-                  "name": "Shashibhushan Tiwari",
+                  "name": "Shashi Bhushan Tiwari ",
                   "role": "State Media Coordinator"
                 },
                 {
@@ -2809,8 +2819,8 @@
                   "href": "tel:+919335420584"
                 }
               ],
-              "email": "",
-              "initial": "M",
+              "email": "mp7585774@gmail.com",
+              "image": "/assets/Mahendra.jpeg",
               "positionNumber": 3
             }
           ],
@@ -3809,7 +3819,7 @@
           "title": "60th State Convention / Election",
           "summary": "The Sangh’s one-day 60th State Convention / Election. A launch ceremony for the sixth edition of the Sangh Constitution and the commemorative publication was held on this occasion.",
           "date": "12 September 2026",
-          "location": "Pt. Atal Bihari Vajpayee Auditorium, Lucknow",
+          "location": "Atal Bihari Vajpayee Scientific Convention Center, Lucknow",
           "placeholderCount": 6,
           "images": [],
           "programme": {
@@ -3993,40 +4003,50 @@
       "intro": "As listed on the Sangh’s official letterhead (dated 25.07.2026).",
       "people": [
         {
-          "name": "Sushil Kumar Tripathi",
+          "name": "Jagdish Nigam",
           "role": "State President",
-          "base": "Headquarters: Sultanpur",
+          "base": "District: Hamirpur",
           "phones": [
             {
-              "label": "9415382132",
-              "href": "tel:+919415382132"
+              "label": "7000337571",
+              "href": "tel:+917000337571"
             },
             {
-              "label": "8953631184",
-              "href": "tel:+918953631184"
+              "label": "9415417582",
+              "href": "tel:+919415417582"
             }
           ],
-          "email": "sushiltripathi.up@gmail.com",
+          "email": "nigamjagdish1977@gmail.com",
           "initial": "",
-          "image": "/assets/sushil.jpeg"
+          "image": "/assets/jagdish.jpeg"
         },
         {
-          "name": "Ajeet Upadhyay",
+          "name": "Mahendra Pandey",
           "role": "State General Secretary",
-          "base": "Headquarters: Firozabad",
+          "base": "District: Prayagraj",
           "phones": [
             {
-              "label": "9411207799",
-              "href": "tel:+919411207799"
-            },
-            {
-              "label": "9411441188",
-              "href": "tel:+919411441188"
+              "label": "9335420584",
+              "href": "tel:+919335420584"
             }
           ],
-          "email": "ajeetfir@gmail.com",
+          "email": "mp7585774@gmail.com",
           "initial": "",
-          "image": "/assets/ajeet-upadhaya.D7HRX1dk_Z1wd9GG.webp"
+          "image": "/assets/Mahendra.jpeg"
+        },
+        {
+          "name": "Shashi Bhushan Tiwari ",
+          "role": "Website Creator",
+          "base": "",
+          "phones": [
+            {
+              "label": "9959750111",
+              "href": "tel:+919959750111"
+            }
+          ],
+          "email": "sbtiwari72@gmail.com",
+          "initial": "",
+          "image": "/assets/papu.C0EkKSJo_BQI0O.webp"
         }
       ],
       "office": {
@@ -4070,7 +4090,7 @@
       },
       "name": "Uttar Pradeshiya Ministerial Collectorate Karmachari Sangh, U.P.",
       "recognition": "Recognized by Government Order No. 1945/Ek–Kha–80 dated 29 October 1929",
-      "headquarters": "Headquarters: Collectorate–Firozabad (U.P.)",
+      "headquarters": "Headquarters: Collectorate–Prayagraj (U.P.)",
       "quickLinksTitle": "Quick Links",
       "quickLinks": [
         {

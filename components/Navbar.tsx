@@ -114,14 +114,30 @@ export default function Navbar() {
                 </span>
               </span>
             </Link>
-            <p
-              className="m-0 flex flex-col items-end border-b-[3px] border-gold pb-[6px] font-serif leading-[1.4] font-bold whitespace-nowrap text-navy italic [@media(width<=1080px)]:hidden"
-              lang={language}
-            >
-              {header.motto.map((line) => (
-                <span key={line}>{line}</span>
-              ))}
-            </p>
+            <div className="flex items-center gap-[clamp(12px,1.5vw,20px)] flex-none [@media(width<=860px)]:hidden">
+              <div className="flex flex-col items-center flex-none">
+                <img
+                  className="size-[clamp(64px,9vw,96px)] max-w-full flex-none rounded-[50%] border-2 border-gold bg-white p-[2px] object-cover object-top shadow-[0_2px_8px_rgba(0,0,0,0.12)]"
+                  src="/assets/Sudhakar.jpeg"
+                  alt={language === "hi" ? "स्व. सुधाकर शर्मा" : "Late Sudhakar Sharma"}
+                  width={96}
+                  height={96}
+                  loading="eager"
+                  decoding="async"
+                />
+                <span className="mt-[3px] text-[.72rem] font-bold text-navy-900 whitespace-nowrap">
+                  {language === "hi" ? "स्व. सुधाकर शर्मा" : "Late Sudhakar Sharma"}
+                </span>
+              </div>
+              <p
+                className="m-0 flex flex-col items-end border-b-[3px] border-gold pb-[6px] font-serif leading-[1.4] font-bold whitespace-nowrap text-navy italic [@media(width<=1100px)]:hidden"
+                lang={language}
+              >
+                {header.motto.map((line) => (
+                  <span key={line}>{line}</span>
+                ))}
+              </p>
+            </div>
           </div>
         </div>
         <nav

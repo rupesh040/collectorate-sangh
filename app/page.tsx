@@ -14,12 +14,12 @@ export default function HomePage() {
       <Hero />
       <Facts />
       <About />
-      <VisionMission />
-      <OfficeBearers />
-      <Constitution />
-      <Events />
-      <EmployeeInformation />
-      <Contact />
+      {/* <VisionMission /> */}
+      {/* <OfficeBearers /> */}
+      {/* <Constitution /> */}
+      {/* <Events /> */}
+      {/* <EmployeeInformation /> */}
+      {/* <Contact /> */}
     </>
   );
 }

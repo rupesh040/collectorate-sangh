@@ -20,35 +20,41 @@ export default function Contact({ full = false }: FullViewProps) {
           <h3 className={`${styles.heading} my-[.1em] text-[1.35rem]`}>
             {person.name}
           </h3>
-          <p className="m-0 mb-[12px] text-[.93rem] text-muted">
-            {person.base}
-          </p>
+          {person.base ? (
+            <p className="m-0 mb-[12px] text-[.93rem] text-muted">
+              {person.base}
+            </p>
+          ) : null}
           <ul className="m-0 grid list-none gap-[8px] p-0">
-            <li className="flex items-start gap-[10px] wrap-anywhere">
-              <Icon
-                name="phone"
-                className="mt-[5px] size-[18px] flex-none text-navy"
-              />
-              <span>
-                {person.phones.map((phone, index) => (
-                  <Fragment key={phone.href}>
-                    {index > 0 && ", "}
-                    <a className={styles.link} href={phone.href}>
-                      {phone.label}
-                    </a>
-                  </Fragment>
-                ))}
-              </span>
-            </li>
-            <li className="flex items-start gap-[10px] wrap-anywhere">
-              <Icon
-                name="mail"
-                className="mt-[5px] size-[18px] flex-none text-navy"
-              />
-              <a className={styles.link} href={`mailto:${person.email}`}>
-                {person.email}
-              </a>
-            </li>
+            {person.phones.length > 0 && (
+              <li className="flex items-start gap-[10px] wrap-anywhere">
+                <Icon
+                  name="phone"
+                  className="mt-[5px] size-[18px] flex-none text-navy"
+                />
+                <span>
+                  {person.phones.map((phone, index) => (
+                    <Fragment key={phone.href}>
+                      {index > 0 && ", "}
+                      <a className={styles.link} href={phone.href}>
+                        {phone.label}
+                      </a>
+                    </Fragment>
+                  ))}
+                </span>
+              </li>
+            )}
+            {person.email ? (
+              <li className="flex items-start gap-[10px] wrap-anywhere">
+                <Icon
+                  name="mail"
+                  className="mt-[5px] size-[18px] flex-none text-navy"
+                />
+                <a className={styles.link} href={`mailto:${person.email}`}>
+                  {person.email}
+                </a>
+              </li>
+            ) : null}
           </ul>
         </article>
       ))}

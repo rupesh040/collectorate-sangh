@@ -106,7 +106,7 @@ export default function Events({ full = false }: EventsProps) {
           {events.items.map((event) => (
             <EventCard event={event} full key={event.id} />
           ))}
-          <EventCard event={events.banners} full />
+          {/* <EventCard event={events.banners} full /> */}
         </div>
       </section>
       <section className={`${styles.section} ${styles.sectionAlt}`}>

@@ -66,39 +66,53 @@ export default function Footer() {
         </div>
         <div>
           <h2 className={footerHeading}>{footer.contactTitle}</h2>
-          {contact.people.map((person) => (
-            <div className="mb-[14px]" key={person.name}>
-              <p className="m-0 flex flex-wrap items-center gap-[8px] font-semibold text-white [overflow-wrap:anywhere]">
-                {person.name},{" "}
-                <span className="font-normal text-[#ffffffb3]">
+          <div className="grid gap-[16px]">
+            {contact.people.map((person) => (
+              <div
+                className="border-b border-[#ffffff14] pb-[12px] last:border-b-0 last:pb-0"
+                key={person.name}
+              >
+               
+                <p className="m-0 font-serif text-[1rem] font-bold text-white">
+                  {person.name} -  <span className="m-0 text-[.8rem] font-semibold tracking-wide text-gold-soft">
                   {person.role}
                 </span>
-              </p>
-              <p className="m-0 flex flex-wrap items-center gap-[8px] [overflow-wrap:anywhere]">
-                <Icon
-                  name="phone"
-                  className="size-[15px] flex-none text-gold-soft"
-                />
-                {person.phones.map((phone, index) => (
-                  <Fragment key={phone.href}>
-                    {index > 0 && ", "}
-                    <a className={footerLink} href={phone.href}>
-                      {phone.label}
+                </p>
+                {person.base ? (
+                  <p className="m-0 text-[.82rem] text-[#ffffffb3]">
+                    {person.base}
+                  </p>
+                ) : null}
+                {person.phones.length > 0 && (
+                  <p className="m-0 mt-[4px] flex flex-wrap items-center gap-[6px] text-[.88rem] [overflow-wrap:anywhere]">
+                    <Icon
+                      name="phone"
+                      className="size-[14px] flex-none text-gold-soft"
+                    />
+                    {person.phones.map((phone, index) => (
+                      <Fragment key={phone.href}>
+                        {index > 0 && ", "}
+                        <a className={footerLink} href={phone.href}>
+                          {phone.label}
+                        </a>
+                      </Fragment>
+                    ))}
+                  </p>
+                )}
+                {person.email ? (
+                  <p className="m-0 mt-[2px] flex flex-wrap items-center gap-[6px] text-[.88rem] [overflow-wrap:anywhere]">
+                    <Icon
+                      name="mail"
+                      className="size-[14px] flex-none text-gold-soft"
+                    />
+                    <a className={footerLink} href={`mailto:${person.email}`}>
+                      {person.email}
                     </a>
-                  </Fragment>
-                ))}
-              </p>
-              <p className="m-0 flex flex-wrap items-center gap-[8px] [overflow-wrap:anywhere]">
-                <Icon
-                  name="mail"
-                  className="size-[15px] flex-none text-gold-soft"
-                />
-                <a className={footerLink} href={`mailto:${person.email}`}>
-                  {person.email}
-                </a>
-              </p>
-            </div>
-          ))}
+                  </p>
+                ) : null}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
       <div className="border-t border-[#ffffff1f] text-[.82rem]">
