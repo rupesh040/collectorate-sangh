@@ -110,6 +110,22 @@ export default function Footer() {
                     </a>
                   </p>
                 ) : null}
+                {person.facebook ? (
+                  <p className="m-0 mt-[2px] flex flex-wrap items-center gap-[6px] text-[.88rem] [overflow-wrap:anywhere]">
+                    <Icon
+                      name="facebook"
+                      className="size-[14px] flex-none text-gold-soft"
+                    />
+                    <a
+                      className={footerLink}
+                      href={person.facebook}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Facebook
+                    </a>
+                  </p>
+                ) : null}
               </div>
             ))}
           </div>

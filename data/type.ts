@@ -60,6 +60,7 @@ export interface ContactPerson {
   initial?: string;
   image?: string;
   positionNumber?: number;
+  facebook?: string;
 }
 
 export interface OfficeBearer {
@@ -190,6 +191,13 @@ export interface SiteContent {
     intro: string;
     actions: LinkItem[];
     resultLink: LinkItem;
+    rccms?: {
+      title: string;
+      subtitle: string;
+      href: string;
+      leftLogo: ImageAsset;
+      rightLogo: ImageAsset;
+    };
     building: ImageAsset;
     team: { name: string; role: string; image: ImageAsset }[];
   };

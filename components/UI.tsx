@@ -1,5 +1,5 @@
 export const styles = {
-  wrap: "mx-auto w-full max-w-[1180px] px-[clamp(16px,4vw,32px)]",
+  wrap: "mx-auto w-full max-w-[1350px] px-[clamp(16px,4vw,32px)]",
   section: "py-[clamp(48px,7vw,88px)]",
   sectionAlt: "border-y border-line bg-surface",
   heading: "font-serif font-bold leading-[1.35] text-navy-900",

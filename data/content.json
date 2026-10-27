@@ -55,6 +55,16 @@
           "href": "/employee-information/"
         },
         {
+          "label": "महत्वपूर्ण शासनादेश",
+          "en": "Important Government Order",
+          "href": "https://shasanadesh.up.gov.in/"
+        },
+        {
+          "label": "ज्ञापन/ पत्राचार",
+          "en": "Memorandum / Correspondence",
+          "href": "/contact/"
+        },
+        {
           "label": "संपर्क",
           "en": "Contact",
           "href": "/contact/"
@@ -85,6 +95,23 @@
         "label": "UPMCK चुनाव परिणाम 2024–26",
         "en": "UPMCK Election Results 2024–26",
         "href": "https://drive.google.com/file/d/1Zp4JEGK-mlP4G4j6QPQIO_qpMEFQJDtB/view?usp=drivesdk"
+      },
+      "rccms": {
+        "title": "राजस्व न्यायालय कंप्यूटरीकृत प्रबंधन प्रणाली",
+        "subtitle": "RCCMS",
+        "href": "http://vaad.up.nic.in/",
+        "leftLogo": {
+          "src": "/assets/uplogo.webp",
+          "alt": "उत्तर प्रदेश शासन",
+          "width": 48,
+          "height": 48
+        },
+        "rightLogo": {
+          "src": "/assets/Uplogo1.webp",
+          "alt": "उत्तर प्रदेश शासन",
+          "width": 48,
+          "height": 48
+        }
       },
       "building": {
         "src": "/assets/collectorate-building.Wj1WlCAl_Z1EFtMF.webp",
@@ -126,7 +153,7 @@
       },
       {
         "label": "मुख्यालय",
-        "value": "कलेक्ट्रेट–फिरोजाबाद (महामंत्री का जनपद)"
+        "value": "कलेक्ट्रेट–प्रयागराज (महामंत्री का जनपद)"
       },
       {
         "label": "प्रान्तीय कार्यालय",
@@ -193,7 +220,7 @@
         },
         {
           "label": "मुख्यालय",
-          "value": "कलेक्ट्रेट–फिरोजाबाद (महामंत्री का जनपद)"
+          "value": "कलेक्ट्रेट–प्रयागराज (महामंत्री का जनपद)"
         },
         {
           "label": "प्रान्तीय कार्यालय",
@@ -1945,6 +1972,7 @@
             }
           ],
           "email": "sbtiwari72@gmail.com",
+          "facebook": "https://www.facebook.com/shashi.tiwari.330",
           "initial": "",
           "image": "/assets/papu.C0EkKSJo_BQI0O.webp"
         }
@@ -2155,6 +2183,15 @@
           "href": "/employee-information/"
         },
         {
+          "label": "Important Government Order",
+          "en": "Important Government Order",
+          "href": "https://shasanadesh.up.gov.in/"
+        },{
+          "label": "Memorandum / Correspondence",
+          "en": "Memorandum / Correspondence",
+          "href": "/contact/"
+        },
+        {
           "label": "Contact",
           "en": "Contact",
           "href": "/contact/"
@@ -2185,6 +2222,23 @@
         "label": "UPMCK Election Results 2024–26",
         "en": "UPMCK Election Results 2024–26",
         "href": "https://drive.google.com/file/d/1Zp4JEGK-mlP4G4j6QPQIO_qpMEFQJDtB/view?usp=drivesdk"
+      },
+      "rccms": {
+        "title": "Revenue Court Computerized Management System",
+        "subtitle": "RCCMS",
+        "href": "http://vaad.up.nic.in/",
+        "leftLogo": {
+          "src": "/assets/uplogo.webp",
+          "alt": "Government of Uttar Pradesh",
+          "width": 48,
+          "height": 48
+        },
+        "rightLogo": {
+          "src": "/assets/Uplogo1.webp",
+          "alt": "Government of Uttar Pradesh",
+          "width": 48,
+          "height": 48
+        }
       },
       "building": {
         "src": "/assets/collectorate-building.Wj1WlCAl_Z1EFtMF.webp",
@@ -2226,7 +2280,7 @@
       },
       {
         "label": "Headquarters",
-        "value": "Collectorate–Firozabad (the General Secretary’s district)"
+        "value": "Collectorate–Prayagraj  (the General Secretary’s district)"
       },
       {
         "label": "State Office",
@@ -2293,7 +2347,7 @@
         },
         {
           "label": "Headquarters",
-          "value": "Collectorate–Firozabad (the General Secretary’s district)"
+          "value": "Collectorate–Prayagraj (the General Secretary’s district)"
         },
         {
           "label": "State Office",
@@ -4045,6 +4099,7 @@
             }
           ],
           "email": "sbtiwari72@gmail.com",
+          "facebook": "https://www.facebook.com/shashi.tiwari.330",
           "initial": "",
           "image": "/assets/papu.C0EkKSJo_BQI0O.webp"
         }

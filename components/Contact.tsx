@@ -55,6 +55,22 @@ export default function Contact({ full = false }: FullViewProps) {
                 </a>
               </li>
             ) : null}
+            {person.facebook ? (
+              <li className="flex items-start gap-[10px] wrap-anywhere">
+                <Icon
+                  name="facebook"
+                  className="mt-[5px] size-[18px] flex-none text-navy"
+                />
+                <a
+                  className={styles.link}
+                  href={person.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Facebook
+                </a>
+              </li>
+            ) : null}
           </ul>
         </article>
       ))}

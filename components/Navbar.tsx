@@ -56,7 +56,7 @@ export default function Navbar() {
   const { header, ui } = useContent();
   const { language } = useLanguage();
   const secondaryNavigation =
-    contentByLanguage[language === "hi" ? "en" : "hi"].header.nav;
+    contentByLanguage[language === "hi" ? "en" : "hi"]?.header?.nav ?? [];
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -119,14 +119,20 @@ export default function Navbar() {
                 <img
                   className="size-[clamp(64px,9vw,96px)] max-w-full flex-none rounded-[50%] border-2 border-gold bg-white p-[2px] object-cover object-top shadow-[0_2px_8px_rgba(0,0,0,0.12)]"
                   src="/assets/Sudhakar.jpeg"
-                  alt={language === "hi" ? "स्व. सुधाकर शर्मा" : "Late Sudhakar Sharma"}
+                  alt={
+                    language === "hi"
+                      ? "स्व. सुधाकर शर्मा"
+                      : "Late Sudhakar Sharma"
+                  }
                   width={96}
                   height={96}
                   loading="eager"
                   decoding="async"
                 />
                 <span className="mt-[3px] text-[.72rem] font-bold text-navy-900 whitespace-nowrap">
-                  {language === "hi" ? "स्व. सुधाकर शर्मा" : "Late Sudhakar Sharma"}
+                  {language === "hi"
+                    ? "स्व. सुधाकर शर्मा"
+                    : "Late Sudhakar Sharma"}
                 </span>
               </div>
               <p
@@ -162,27 +168,35 @@ export default function Navbar() {
               id="nav-list"
             >
               {header.nav.map((item, index) => {
+                const isExternal =
+                  item.href.startsWith("http://") ||
+                  item.href.startsWith("https://");
                 const active =
+                  !isExternal &&
                   (pathname.replace(/\/$/, "") || "/") ===
-                  (item.href.replace(/\/$/, "") || "/");
+                    (item.href.replace(/\/$/, "") || "/");
                 return (
-                  <li key={item.href}>
+                  <li key={`${item.href}-${index}`}>
                     <Link
                       className={`relative flex flex-col items-center px-[14px] pt-[9px] pb-[7px] leading-[1.3] text-white no-underline transition-[background-color] duration-200 [transition-timing-function:ease] hover:bg-[#ffffff14] after:absolute after:right-[14px] after:bottom-0 after:left-[14px] after:h-[3px] after:bg-gold after:content-[''] after:transition-transform after:duration-[250ms] after:[transform:scaleX(0)] hover:after:[transform:scaleX(1)] [@media(width<=1080px)]:px-[10px] [@media(width<=860px)]:flex-row [@media(width<=860px)]:items-baseline [@media(width<=860px)]:justify-between [@media(width<=860px)]:border-t [@media(width<=860px)]:border-[#ffffff1a] [@media(width<=860px)]:px-[6px] [@media(width<=860px)]:py-[10px] [@media(width<=860px)]:after:h-auto [@media(width<=860px)]:after:w-[3px] [@media(width<=860px)]:after:[inset:8px_auto_8px_0] [@media(width<=860px)]:after:[transform:scaleY(0)] ${active ? "bg-navy-900! after:[transform:scaleX(1)]! [@media(width<=860px)]:after:[transform:scaleY(1)]!" : ""}`}
                       href={item.href}
+                      target={isExternal ? "_blank" : undefined}
+                      rel={isExternal ? "noopener noreferrer" : undefined}
                       aria-current={active ? "page" : undefined}
                       onClick={() => setIsOpen(false)}
                     >
-                      <span className="text-[.98rem] font-semibold">
+                      <span className="text-[.78rem] font-semibold">
                         {item.label}
                       </span>
                       <span
-                        className="text-[.7rem] tracking-[.02em] text-[#ffffffad]"
+                        className="text-[.6rem] tracking-[.02em] text-[#ffffffad]"
                         lang={language === "hi" ? "en" : "hi"}
                       >
                         {language === "hi"
                           ? item.en
-                          : secondaryNavigation[index].label}
+                          : secondaryNavigation[index]?.label ??
+                            secondaryNavigation[index]?.en ??
+                            ""}
                       </span>
                     </Link>
                   </li>

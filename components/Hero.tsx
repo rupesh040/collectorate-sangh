@@ -65,6 +65,45 @@ export default function Hero() {
             </span>
             <Icon name="external" />
           </a>
+          {hero.rccms && (
+            <a
+              className="mt-3.5 flex max-w-[460px] items-center justify-between gap-2.5 sm:gap-3 rounded-xl border border-[#ffffff2e] bg-[#ffffff14] px-3 sm:px-3.5 py-2.5 text-white no-underline shadow-[0_10px_24px_#00000033] backdrop-blur-[2px] [transition:transform_.15s,background-color_.15s,border-color_.15s] hover:border-gold hover:bg-[#ffffff20] hover:[transform:translateY(-2px)] focus-visible:outline-white! focus-visible:outline-offset-[3px]!"
+              href={hero.rccms.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              title={`${hero.rccms.title} (${hero.rccms.subtitle})`}
+            >
+              <img
+                src={hero.rccms.leftLogo.src}
+                alt={hero.rccms.leftLogo.alt}
+                width={hero.rccms.leftLogo.width}
+                height={hero.rccms.leftLogo.height}
+                className="size-10 sm:size-12 flex-none rounded-full border border-gold/50 bg-white p-0.5 object-contain shadow-sm"
+                loading="lazy"
+                decoding="async"
+              />
+              <span className="flex flex-1 flex-col items-center text-center">
+                <span className="font-serif text-[.82rem] sm:text-[.94rem] font-bold leading-[1.3] text-white">
+                  {hero.rccms.title}
+                </span>
+                <span
+                  className="mt-0.5 text-[.74rem] sm:text-[.8rem] font-bold tracking-wider text-gold-soft"
+                  lang="en"
+                >
+                  {hero.rccms.subtitle}
+                </span>
+              </span>
+              <img
+                src={hero.rccms.rightLogo.src}
+                alt={hero.rccms.rightLogo.alt}
+                width={hero.rccms.rightLogo.width}
+                height={hero.rccms.rightLogo.height}
+                className="size-10 sm:size-12 flex-none rounded-full border border-gold/50 bg-white p-0.5 object-contain shadow-sm"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          )}
         </div>
         <div className="relative grid gap-[18px] motion-safe:[animation:rise_.8s_.12s_both] [@media(width<=900px)]:max-w-[560px]">
           <div className="aspect-[16/10] overflow-hidden rounded-[14px] border-[6px] border-[#ffffffeb] shadow-[0_30px_60px_#00000059]">
