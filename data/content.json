@@ -2042,8 +2042,31 @@
           "href": "/employee-information/"
         },
         {
+          "label": "महत्वपूर्ण शासनादेश",
+          "href": "https://shasanadesh.up.gov.in/"
+        },
+        {
+          "label": "ज्ञापन/ पत्राचार",
+          "href": "/contact/"
+        },
+        {
           "label": "संपर्क",
           "href": "/contact/"
+        }
+      ],
+      "portalsTitle": "उपयोगी पोर्टल",
+      "portals": [
+        {
+          "label": "राजस्व परिषद उत्तर प्रदेश",
+          "href": "https://bor.up.gov.in/"
+        },
+        {
+          "label": "राजस्व न्यायालय (RCCMS)",
+          "href": "https://vaad.up.nic.in/Default_new.aspx"
+        },
+        {
+          "label": "मतदाता सेवा पोर्टल",
+          "href": "https://voters.eci.gov.in/"
         }
       ],
       "documentsTitle": "महत्वपूर्ण दस्तावेज़",
@@ -4169,8 +4192,31 @@
           "href": "/employee-information/"
         },
         {
+          "label": "Important Government Order",
+          "href": "https://shasanadesh.up.gov.in/"
+        },
+        {
+          "label": "Memorandum / Correspondence",
+          "href": "/contact/"
+        },
+        {
           "label": "Contact",
           "href": "/contact/"
+        }
+      ],
+      "portalsTitle": "Official Portals",
+      "portals": [
+        {
+          "label": "Board of Revenue, U.P.",
+          "href": "https://bor.up.gov.in/"
+        },
+        {
+          "label": "Revenue Court (RCCMS)",
+          "href": "https://vaad.up.nic.in/Default_new.aspx"
+        },
+        {
+          "label": "Voters' Services Portal",
+          "href": "https://voters.eci.gov.in/"
         }
       ],
       "documentsTitle": "Important Documents",

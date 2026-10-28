@@ -302,6 +302,8 @@ export interface SiteContent {
     headquarters: string;
     quickLinksTitle: string;
     quickLinks: LinkItem[];
+    portalsTitle?: string;
+    portals?: LinkItem[];
     documentsTitle: string;
     documents: LinkItem[];
     contactTitle: string;

@@ -42,26 +42,26 @@ function OfficeBearersRoster({ roster, full }: OfficeBearersRosterProps) {
             key={person.positionNumber ?? person.name}
           >
             {person.image ? (
-              <div className="size-[72px] flex-none overflow-hidden rounded-full border-2 border-gold bg-white p-[3px] shadow-[0_2px_8px_rgba(0,0,0,0.12)]">
+              <div className="size-[112px] sm:size-[128px] flex-none overflow-hidden rounded-[8px] border-2 border-gold bg-white p-[3px] shadow-[0_4px_12px_rgba(19,29,85,0.1)]">
                 <img
                   src={person.image}
                   alt={person.name}
-                  className="size-full rounded-full object-cover object-top"
-                  width={72}
-                  height={72}
+                  className="size-full rounded-[5px] object-cover object-top"
+                  width={128}
+                  height={128}
                   loading="lazy"
                   decoding="async"
                 />
               </div>
             ) : (
               <div
-                className="grid size-[72px] flex-none place-items-center rounded-full border-2 border-gold bg-[radial-gradient(circle_at_30%_30%,#fff,#f3e6bf)] font-serif text-[2rem] font-bold text-navy-900 shadow-[inset_0_0_0_4px_#fff]"
+                className="grid size-[112px] sm:size-[128px] flex-none place-items-center rounded-[8px] border-2 border-gold bg-[radial-gradient(circle_at_30%_30%,#fff,#f3e6bf)] font-serif text-[2.5rem] font-bold text-navy-900 shadow-[inset_0_0_0_4px_#fff]"
                 aria-hidden="true"
               >
                 {person.initial || person.name.charAt(0)}
               </div>
             )}
-            <div>
+            <div className="min-w-0 flex-1">
               <p className="m-0 text-[.95rem] font-bold text-red">
                 {person.role}
               </p>

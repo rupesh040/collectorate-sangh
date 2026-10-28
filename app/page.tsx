@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Facts from "@/components/Facts";
 import About from "@/components/About";
+import ImportantLinks from "@/components/ImportantLinks";
 import VisionMission from "@/components/VisionMission";
 import OfficeBearers from "@/components/OfficeBearers";
 import Constitution from "@/components/Constitution";
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Hero />
       <Facts />
       <About />
+      <ImportantLinks />
       {/* <VisionMission /> */}
       {/* <OfficeBearers /> */}
       {/* <Constitution /> */}

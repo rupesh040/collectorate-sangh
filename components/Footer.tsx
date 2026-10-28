@@ -17,7 +17,7 @@ export default function Footer() {
   return (
     <footer className="border-t-[4px] border-gold bg-navy-950 text-[.93rem] text-[#fffc]">
       <div
-        className={`${styles.wrap} grid grid-cols-[1.4fr_1fr_1fr_1.4fr] gap-[32px] pt-[48px] pb-[36px] [@media(560px<width<=900px)]:grid-cols-2 [@media(width<=560px)]:grid-cols-1`}
+        className={`${styles.wrap} grid grid-cols-[1.3fr_1fr_1.1fr_1fr_1.3fr] gap-[28px] pt-[48px] pb-[36px] [@media(800px<width<=1160px)]:grid-cols-3 [@media(500px<width<=800px)]:grid-cols-2 [@media(width<=500px)]:grid-cols-1`}
       >
         <div>
           <img
@@ -38,15 +38,53 @@ export default function Footer() {
         <div>
           <h2 className={footerHeading}>{footer.quickLinksTitle}</h2>
           <ul className="m-0 grid list-none gap-[6px] p-0">
-            {footer.quickLinks.map((link) => (
-              <li key={link.href}>
-                <Link className={footerLink} href={link.href}>
-                  {link.label}
-                </Link>
-              </li>
-            ))}
+            {footer.quickLinks.map((link) => {
+              const isExternal =
+                link.href.startsWith("http://") ||
+                link.href.startsWith("https://");
+              return (
+                <li key={`${link.href}-${link.label}`}>
+                  {isExternal ? (
+                    <a
+                      className={footerLink}
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {link.label} <span className="sr-only">{ui.newWindow}</span>
+                    </a>
+                  ) : (
+                    <Link className={footerLink} href={link.href}>
+                      {link.label}
+                    </Link>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         </div>
+        {footer.portals && footer.portals.length > 0 && (
+          <div>
+            <h2 className={footerHeading}>
+              {footer.portalsTitle ?? "उपयोगी पोर्टल"}
+            </h2>
+            <ul className="m-0 grid list-none gap-[6px] p-0">
+              {footer.portals.map((portal) => (
+                <li key={portal.href}>
+                  <a
+                    className={footerLink}
+                    href={portal.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {portal.label}{" "}
+                    <span className="sr-only">{ui.newWindow}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
         <div>
           <h2 className={footerHeading}>{footer.documentsTitle}</h2>
           <ul className="m-0 grid list-none gap-[6px] p-0">
