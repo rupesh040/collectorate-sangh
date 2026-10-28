@@ -2021,6 +2021,11 @@
       "headquarters": "मुख्यालय : कलेक्ट्रेट–प्रयागराज (उ.प्र.)",
       "quickLinksTitle": "त्वरित लिंक",
       "quickLinks": [
+         {
+          "label": "मुखपृष्ठ",
+          "en": "Home",
+          "href": "/"
+        },
         {
           "label": "संघ परिचय",
           "href": "/about/"
@@ -4171,6 +4176,11 @@
       "headquarters": "Headquarters: Collectorate–Prayagraj (U.P.)",
       "quickLinksTitle": "Quick Links",
       "quickLinks": [
+         {
+          "label": "Home",
+          "en": "Home",
+          "href": "/"
+        },
         {
           "label": "About the Sangh",
           "href": "/about/"
