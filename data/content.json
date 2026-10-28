@@ -2134,6 +2134,21 @@
         "breadcrumb": "ज्ञापन / पत्राचार"
       }
     },
+    "memorandum": {
+      "heading": {
+        "eyebrow": "Memorandum / Correspondence",
+        "title": "ज्ञापन / पत्राचार",
+        "lead": "संघ द्वारा प्रेषित महत्वपूर्ण ज्ञापन एवं पत्राचार।"
+      },
+      "items": [
+        {
+          "title": "मांग पत्र राजस्व परिषद दिनांक 22-10-2026",
+          "date": "22-10-2026",
+          "pdfHref": "/assets/Memorandum.pdf",
+          "badge": "PDF"
+        }
+      ]
+    },
     "ui": {
       "skipLink": "मुख्य सामग्री पर जाएँ",
       "menu": "मेनू",
@@ -4297,6 +4312,21 @@
         "englishTitle": "Memorandum / Correspondence",
         "breadcrumb": "Memorandum / Correspondence"
       }
+    },
+    "memorandum": {
+      "heading": {
+        "eyebrow": "Memorandum / Correspondence",
+        "title": "Memorandum / Correspondence",
+        "lead": "Important memorandums and correspondence sent by the Sangh."
+      },
+      "items": [
+        {
+          "title": "Demand Letter Revenue Council dated 22-10-2026",
+          "date": "22-10-2026",
+          "pdfHref": "/assets/Memorandum.pdf",
+          "badge": "PDF"
+        }
+      ]
     },
     "ui": {
       "skipLink": "Skip to main content",

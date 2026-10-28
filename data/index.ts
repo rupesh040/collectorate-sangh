@@ -20,6 +20,7 @@ export const {
   footer,
   pages,
   ui,
+  memorandum,
 } = siteContent;
 
 export default siteContent;

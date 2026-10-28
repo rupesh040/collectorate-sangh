@@ -161,6 +161,18 @@ export interface PageInfo {
   breadcrumb: string;
 }
 
+export interface MemorandumItem {
+  title: string;
+  date: string;
+  pdfHref: string;
+  badge?: string;
+}
+
+export interface MemorandumContent {
+  heading: Heading;
+  items: MemorandumItem[];
+}
+
 export interface EmployeeStep {
   number: number;
   title: string;
@@ -342,6 +354,7 @@ export interface SiteContent {
     switchToHindi: string;
     switchToEnglish: string;
   };
+  memorandum: MemorandumContent;
 }
 
 export interface IconProps {
