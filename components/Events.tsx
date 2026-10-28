@@ -1,7 +1,9 @@
 "use client";
 
+import { useState } from "react";
+import Image from "next/image";
 import { useContent } from "./LanguageProvider";
-import type { EventCardProps, EventsProps } from "@/data/type";
+import type { EventCardProps, EventsProps, OfficeBearer } from "@/data/type";
 import Gallery from "./Gallery";
 import Icon from "./Icon";
 import SectionHeading from "./SectionHeading";
@@ -84,6 +86,62 @@ function EventCard({ event, full = false }: EventCardProps) {
   );
 }
 
+function GreetingsCards({ people }: { people: OfficeBearer[] }) {
+  const [selectedIndex, setSelectedIndex] = useState<number>(0);
+
+  const activePerson = people[selectedIndex] ?? people[0];
+
+  return (
+    <>
+      <ul className="grid list-none grid-cols-[repeat(auto-fit,minmax(min(100%,250px),1fr))] gap-[16px] p-0">
+        {people.map((person, index) => (
+          <li
+            className={`${styles.card} ${styles.cardHover} ${styles.reveal} flex cursor-pointer flex-col border-t-[3px] border-t-gold px-[20px] py-[18px] transition-shadow ${
+              selectedIndex === index
+                ? "ring-2 ring-gold shadow-lg"
+                : ""
+            }`}
+            key={person.name}
+            onClick={() => setSelectedIndex(index)}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                setSelectedIndex(index);
+              }
+            }}
+          >
+            <strong className="font-serif text-[1.1rem] font-bold text-navy-900">
+              {person.name}
+            </strong>
+            <span className="text-[.93rem] leading-[1.55] text-muted">
+              {person.role}
+            </span>
+          </li>
+        ))}
+      </ul>
+
+      {activePerson?.image && (
+        <div className="mt-[24px] flex flex-col items-center gap-[12px]">
+          <div className="overflow-hidden rounded-xl border border-line bg-white shadow-md">
+            <Image
+              src={activePerson.image}
+              alt={activePerson.name}
+              width={400}
+              height={500}
+              className="h-auto max-h-[850px] w-auto max-w-full object-contain"
+            />
+          </div>
+          <p className="text-center font-serif text-[1.15rem] font-bold text-navy-900">
+            {activePerson.name}
+          </p>
+        </div>
+      )}
+    </>
+  );
+}
+
 export default function Events({ full = false }: EventsProps) {
   const { events } = useContent();
   if (!full) {
@@ -112,21 +170,7 @@ export default function Events({ full = false }: EventsProps) {
       <section className={`${styles.section} ${styles.sectionAlt}`}>
         <div className={styles.wrap}>
           <SectionHeading heading={events.greetings.heading} />
-          <ul className="grid list-none grid-cols-[repeat(auto-fit,minmax(min(100%,250px),1fr))] gap-[16px] p-0">
-            {events.greetings.people.map((person) => (
-              <li
-                className={`${styles.card} ${styles.cardHover} ${styles.reveal} flex flex-col border-t-[3px] border-t-gold px-[20px] py-[18px]`}
-                key={person.name}
-              >
-                <strong className="font-serif text-[1.1rem] font-bold text-navy-900">
-                  {person.name}
-                </strong>
-                <span className="text-[.93rem] leading-[1.55] text-muted">
-                  {person.role}
-                </span>
-              </li>
-            ))}
-          </ul>
+          <GreetingsCards people={events.greetings.people} />
         </div>
       </section>
     </>

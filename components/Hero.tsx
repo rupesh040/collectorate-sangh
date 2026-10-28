@@ -73,7 +73,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               title={`${hero.rccms.title} (${hero.rccms.subtitle})`}
             >
-              <img
+              {/* <img
                 src={hero.rccms.leftLogo.src}
                 alt={hero.rccms.leftLogo.alt}
                 width={hero.rccms.leftLogo.width}
@@ -81,19 +81,19 @@ export default function Hero() {
                 className="size-10 sm:size-12 flex-none rounded-full border border-gold/50 bg-white p-0.5 object-contain shadow-sm"
                 loading="lazy"
                 decoding="async"
-              />
+              /> */}
               <span className="flex flex-1 flex-col items-center text-center">
                 <span className="font-serif text-[.82rem] sm:text-[.94rem] font-bold leading-[1.3] text-white">
                   {hero.rccms.title}
                 </span>
-                <span
+                {/* <span
                   className="mt-0.5 text-[.74rem] sm:text-[.8rem] font-bold tracking-wider text-gold-soft"
                   lang="en"
                 >
                   {hero.rccms.subtitle}
-                </span>
+                </span> */}
               </span>
-              <img
+              {/* <img
                 src={hero.rccms.rightLogo.src}
                 alt={hero.rccms.rightLogo.alt}
                 width={hero.rccms.rightLogo.width}
@@ -101,7 +101,7 @@ export default function Hero() {
                 className="size-10 sm:size-12 flex-none rounded-full border border-gold/50 bg-white p-0.5 object-contain shadow-sm"
                 loading="lazy"
                 decoding="async"
-              />
+              /> */}
             </a>
           )}
         </div>

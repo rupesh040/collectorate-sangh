@@ -56,7 +56,7 @@ const portalsContent: Record<"hi" | "en", PortalsData> = {
         id: "vaad",
         title: "राजस्व न्यायालय कंप्यूटरीकृत प्रबंधन प्रणाली",
         englishTitle: "Revenue Court Computerized Management System (RCCMS)",
-        url: "https://vaad.up.nic.in/Default_new.aspx",
+        url: "http://vaad.up.nic.in/",
         domain: "vaad.up.nic.in",
         category: "न्यायालय एवं वाद",
         tagColor: "gold",

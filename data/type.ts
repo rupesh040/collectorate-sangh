@@ -12,7 +12,8 @@ export type PageKey =
   | "events"
   | "samvidhan"
   | "employee-information"
-  | "contact";
+  | "contact"
+  | "memorandum";
 
 export type LocalizedContent = Record<Language, SiteContent>;
 
@@ -69,6 +70,7 @@ export interface OfficeBearer {
   positionNumber?: number;
   district?: string;
   phones?: LinkItem[];
+  image?: string;
 }
 
 export interface LeadershipGroup {

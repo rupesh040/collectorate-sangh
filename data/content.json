@@ -62,7 +62,7 @@
         {
           "label": "ज्ञापन/ पत्राचार",
           "en": "Memorandum / Correspondence",
-          "href": "/contact/"
+          "href": "/memorandum/"
         },
         {
           "label": "संपर्क",
@@ -97,9 +97,9 @@
         "href": "https://drive.google.com/file/d/1Zp4JEGK-mlP4G4j6QPQIO_qpMEFQJDtB/view?usp=drivesdk"
       },
       "rccms": {
-        "title": "राजस्व न्यायालय कंप्यूटरीकृत प्रबंधन प्रणाली",
+        "title": "जनसुनवाई -समाधान | उत्तर प्रदेश सरकार",
         "subtitle": "RCCMS",
-        "href": "http://vaad.up.nic.in/",
+        "href": "https://jansunwai.up.nic.in/",
         "leftLogo": {
           "src": "/assets/uplogo.webp",
           "alt": "उत्तर प्रदेश शासन",
@@ -1867,19 +1867,23 @@
         "people": [
           {
             "name": "राजनाथ सिंह",
-            "role": "रक्षा मंत्री, भारत"
+            "role": "रक्षा मंत्री, भारत",
+            "image": "/assets/rajnath.png"
           },
           {
             "name": "अर्चना अग्रवाल, आई.ए.एस.",
-            "role": "अध्यक्ष, राजस्व परिषद, उत्तर प्रदेश"
+            "role": "अध्यक्ष, राजस्व परिषद, उत्तर प्रदेश",
+            "image": "/assets/Archana.png"
           },
           {
             "name": "अपर्णा यू०, आई.ए.एस.",
-            "role": "प्रमुख सचिव, राजस्व विभाग, उत्तर प्रदेश शासन"
+            "role": "प्रमुख सचिव, राजस्व विभाग, उत्तर प्रदेश शासन",
+            "image": "/assets/Aparna.png"
           },
           {
             "name": "विशाख जी०, आई.ए.एस.",
-            "role": "जिलाधिकारी / जिला मजिस्ट्रेट, लखनऊ"
+            "role": "जिलाधिकारी / जिला मजिस्ट्रेट, लखनऊ",
+            "image": "/assets/Vishakh.png"
           }
         ]
       }
@@ -2052,7 +2056,7 @@
         },
         {
           "label": "ज्ञापन/ पत्राचार",
-          "href": "/contact/"
+          "href": "/memorandum/"
         },
         {
           "label": "संपर्क",
@@ -2123,6 +2127,11 @@
         "title": "संघ संविधान",
         "englishTitle": "Sangh Samvidhan",
         "breadcrumb": "संघ संविधान"
+      },
+      "memorandum": {
+        "title": "ज्ञापन / पत्राचार",
+        "englishTitle": "Memorandum / Correspondence",
+        "breadcrumb": "ज्ञापन / पत्राचार"
       }
     },
     "ui": {
@@ -2217,7 +2226,7 @@
         },{
           "label": "Memorandum / Correspondence",
           "en": "Memorandum / Correspondence",
-          "href": "/contact/"
+          "href": "/memorandum/"
         },
         {
           "label": "Contact",
@@ -4022,19 +4031,23 @@
         "people": [
           {
             "name": "Rajnath Singh",
-            "role": "Minister of Defence, India"
+            "role": "Minister of Defence, India",
+            "image": "/assets/rajnath.png"
           },
           {
             "name": "Archana Agrawal, IAS",
-            "role": "Chairperson, Board of Revenue, Uttar Pradesh"
+            "role": "Chairperson, Board of Revenue, Uttar Pradesh",
+            "image": "/assets/Archana.png"
           },
           {
             "name": "Aparna U., IAS",
-            "role": "Principal Secretary, Revenue Department, Government of Uttar Pradesh"
+            "role": "Principal Secretary, Revenue Department, Government of Uttar Pradesh",
+            "image": "/assets/Aparna.png"
           },
           {
             "name": "Vishakh G., IAS",
-            "role": "District Magistrate / District Collector, Lucknow"
+            "role": "District Magistrate / District Collector, Lucknow",
+            "image": "/assets/Vishakh.png"
           }
         ]
       }
@@ -4207,7 +4220,7 @@
         },
         {
           "label": "Memorandum / Correspondence",
-          "href": "/contact/"
+          "href": "/memorandum/"
         },
         {
           "label": "Contact",
@@ -4278,6 +4291,11 @@
         "title": "Sangh Constitution",
         "englishTitle": "Sangh Constitution",
         "breadcrumb": "Sangh Constitution"
+      },
+      "memorandum": {
+        "title": "Memorandum / Correspondence",
+        "englishTitle": "Memorandum / Correspondence",
+        "breadcrumb": "Memorandum / Correspondence"
       }
     },
     "ui": {
