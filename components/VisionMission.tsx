@@ -10,7 +10,6 @@ export default function VisionMission() {
   const { vision, mission, heading } = visionMission;
   const iconStyle =
     "absolute top-[22px] right-[22px] grid size-[42px] place-items-center rounded-full bg-[#d99a0b29] text-gold";
-
   return (
     <section
       className={`${styles.section} ${styles.sectionAlt}`}

@@ -116,6 +116,7 @@ export interface Edition {
   badges: string[];
   actionLabel: string;
   latest: boolean;
+  pdfHref?: string;
 }
 
 export interface Provision {
